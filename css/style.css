@@ -313,6 +313,20 @@ body {
 }
 
 
+.education {
+  margin: auto;
+  max-width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 120px;
+}
+
+.education-grid {
+  display: block;
+  width: 100%;
+  max-width: 72%;
+}
+
 .education h2 {
   margin: 0px;
   padding-top: 8px;
@@ -377,7 +391,14 @@ body {
   text-align: left;
   line-height: 2.0;
 }
-
+.education p {
+  margin: 0px;
+  padding-top: 18px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #17223b;
+  text-align: left;
+  line-height: 2.0;
 }
 .about a {
   margin: 0px;
@@ -387,7 +408,13 @@ body {
   color: #1565c0;
   line-height: 2.0;
 }
-
+.education a {
+  margin: 0px;
+  padding-top: 18px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #1565c0;
+  line-height: 2.0;
 }
 .about h4 {
   margin: 0px;
@@ -398,7 +425,14 @@ body {
   text-align: left;
   line-height: 2.0;
 }
-
+.education h4 {
+  margin: 0px;
+  padding-top: 40px;
+  font-family: 'Work Sans Medium', sans-serif;
+  font-size: 22px;
+  color: #17223b;
+  text-align: left;
+  line-height: 2.0;
 }
 .about b {
   margin: 0px;
@@ -411,7 +445,16 @@ body {
   background-color: #f0f0f0;
   border-radius: 4px;
 }
-
+.education b {
+  margin: 0px;
+  padding: 8px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #d32f2f;
+  text-align: left;
+  line-height: 2.0;
+  background-color: #f0f0f0;
+  border-radius: 4px;
 }
 .about ul {
   font-family: 'Varela Round', sans-serif;
@@ -425,7 +468,17 @@ body {
   padding-top: 16px;
   padding-left: 4px;
 }
-
+.education ul {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #17223b;
+  text-align: left;
+  line-height: 2.5;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-left: 4px;
 }
 
 .button {
@@ -700,9 +753,8 @@ body {
 .education {
     margin: auto;
     max-width: 100%;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-top: 120px;
+    margin-left: 24px;
+    padding-top: 100px;
   }
 
   .education-grid {
@@ -710,6 +762,65 @@ body {
     max-width: 90%;
   }
 
+  .education p {
+    margin: 0px;
+    padding-top: 18px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: #17223b;
+    text-align: left;
+    line-height: 2.0;
+  }
+
+  .education b {
+    margin: 0px;
+    padding: 12px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+    color: #d32f2f;
+    text-align: left;
+    /* line-height: 2.0; */
+    border-radius: 2px;
+  }
+
+  .education h4 {
+    margin: 0px;
+    padding-top: 40px;
+    font-family: 'Work Sans Medium', sans-serif;
+    font-size: 22px;
+    color: #17223b;
+    text-align: left;
+  }
+
+  .education ul {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: #17223b;
+    text-align: left;
+    line-height: 2.0;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    /* padding-left: 4px; */
+  }
+
+  .education li {
+    padding-bottom: 16px;
+  }
+
+  .education a {
+    padding-top: 18px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: #1565c0;
+    line-height: 2.0;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
   .button {
     margin-top: 32px;
     background-color: #e53935;
@@ -734,3 +845,5 @@ body {
     padding: 16px;
   }
 }
+
+
