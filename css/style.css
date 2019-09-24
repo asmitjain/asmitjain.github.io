@@ -669,12 +669,14 @@ body {
     margin: 0;
     padding: 0;
   }
-
 .education {
     margin: auto;
     max-width: 100%;
     margin-left: 24px;
     padding-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 120px;
   }
 
   .education-grid {
