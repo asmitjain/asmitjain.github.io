@@ -710,65 +710,6 @@ body {
     max-width: 90%;
   }
 
-  .education p {
-    margin: 0px;
-    padding-top: 18px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: #17223b;
-    text-align: left;
-    line-height: 2.0;
-  }
-
-  .education b {
-    margin: 0px;
-    padding: 12px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 13px;
-    color: #d32f2f;
-    text-align: left;
-    /* line-height: 2.0; */
-    border-radius: 2px;
-  }
-
-  .education h4 {
-    margin: 0px;
-    padding-top: 40px;
-    font-family: 'Work Sans Medium', sans-serif;
-    font-size: 22px;
-    color: #17223b;
-    text-align: left;
-  }
-
-  .education ul {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: #17223b;
-    text-align: left;
-    line-height: 2.0;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    /* padding-left: 4px; */
-  }
-
-  .education li {
-    padding-bottom: 16px;
-  }
-
-  .education a {
-    padding-top: 18px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: #1565c0;
-    line-height: 2.0;
-    list-style-type: none;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-  }
   .button {
     margin-top: 32px;
     background-color: #e53935;
