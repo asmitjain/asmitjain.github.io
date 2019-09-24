@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65468401-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-65468401-1');
+  </script>
+  <link rel="shortcut icon" href="./images/favicon2.png">
+  <title>Atharva's Portolio || Product Designer, Design Technologist</title>
+  <META NAME="Description" CONTENT="Atharva's Portolio">
+  <meta property="og:title" content="Atharva's Portolio" />
+  <meta property="og:description" content="  I’m a Product Designer & Design Technologist based out of New York.
+  Currently a final year grad student at the Interactive Telecommunications program(ITP)
+  concentrating on Design & New media while experimenting with emerging technologies such as Augmented Reality(AR),
+  Machine Learning, Internet of Things(IOT) & Mobile/Progressive Web Applications. In addition I'm experiemeting with fusing designs
+  with code using Framer and Origami." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Atharva's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <script src="./js/index.js"></script>
+  <!-- Sticky Header BEGINS -->
+  <div id="sticky-header">
+    <div class="top-navigation">
+      <span><a href="#ux-design">UX DESIGN</a></span>
+      <span><a href="#creative-design">CREATIVE</a></span>
+      <span><a href="#about">ABOUT</a></span>
+      <span><a href="https://drive.google.com/file/d/1BaebVjp5FwtHX_g7j6KgIs1HDvg__S0I/view?usp=sharing" target="_blank">RESUME</a></span>
+    </div>
+  </div>
+  <!-- Sticky Header ENDS -->
+
+  <!-- Introduction Section Begins -->
+  <div class="landing-header">
+    <p id="personal-tag-para"> <span id="personal-tag" class="underline--magical"></span> </p>
+    <h1 id="page-header">Hi I'm Atharva!</h1>
+    <h2 id="page-subheader">Product Designer with 4 years of industry experience. Ex Olacabs, Kayak.</h2>
+  </div>
+  <!-- Introduction Section Ends -->
+
+  <!-- UI/UX Design Section BEGINS -->
+  <div class="ux-design" id="ux-design">
+    <h2><span class="underline-magical-sub-header">UX Design</span></h2>
+    <p>
+      I have worked as an end-to-end designer for 4+ years. Over the years Iv'e
+      worked on different aspects of design such as growth, design systems, accessiblity, user testing &
+      designing for the next billion.
+    </p>
+  </div>
+
+  <div class="ux">
+    <div class="ux-project">
+      <a href="https://www.thatworkedyesterday.com/driver-app" target="_blank">
+        <img src="./images/thumbnails/driverapp.png" class="ux-image" alt="Image of a user interface inside a tablet and a mobile phone">
+        <h3 class="card-title">Designing driving experience for emerging markets</h3>
+        <p class="card-subtitle">OLACABS . UI/UX DESIGN</p>
+      </a>
+    </div>
+
+    <div class="ux-project">
+      <a href="https://www.thatworkedyesterday.com/kayak" target="_blank">
+        <img src="./images/thumbnails/kayak.png" class="ux-image" alt="Illustration of a continious graph and the Kayak company logo">
+        <h3 class="card-title">Kayak: Contextualizing the Desktop Flight Search</h3>
+        <p class="card-subtitle">KAYAK . UI/UX DESIGN</p>
+      </a>
+    </div>
+
+    <div class="ux-project">
+      <a href="https://www.thatworkedyesterday.com/designing-route-preferences-for-drivers" target="_blank">
+        <img src="./images/thumbnails/routes.png" class="ux-image" alt="background of a map with green circles and a user interface inside a mobile phone on top of the map.">
+        <h3 class="card-title">Designing Route Preferences for Drivers</h3>
+        <p class="card-subtitle">OLACABS . UI/UX DESIGN</p>
+      </a>
+    </div>
+
+    <div class="ux-project">
+      <a href="https://www.invisionapp.com/inside-design/reimagining-email/" target="_blank">
+        <img src="./images/thumbnails/tinder.png" class="ux-image" alt="Two rectangles with different backgrounds seperated by a plus sign. One on the left has the tinder logo at the center with a red background and the one on the right has a email icon on the center with a green background.">
+        <h3 class="card-title">Design teardown: reimagining email</h3>
+        <p class="card-subtitle">PERSONAL . INVISION CASE STUDY</p>
+      </a>
+    </div>
+
+    <div class="ux-project">
+      <a href="https://www.thatworkedyesterday.com/prototyping-with-purpose" target="_blank">
+        <img src="./images/thumbnails/prototype.png" class="ux-image" alt="Illustration of a woman coming out of a phone and reaching out to a child. All illustrations.">
+        <h3 class="card-title">Prototyping with purpose: Bringing designs To Life</h3>
+        <p class="card-subtitle">PERSONAL . UI/UX + JS(FRAMERX)</p>
+      </a>
+    </div>
+
+  </div>
+  </div>
+  <!-- UI/UX Design Section ENDS -->
+
+  <div class="antiportfolio"><a href="https://atharvapatil.github.io/antiportfolio" target="_blank">
+      <p><b>Still looking for more UX work? Checkout some of the older design work here.</b></p>
+    </a></div>
+
+  <!-- Design + Code Section BEGINS -->
+  <div class="ux-design" id="creative-design">
+    <h2><span class="underline-magical-sub-header">Design + Code</span></h2>
+    <p>
+      As a Design technologist I experiment with emerging technologies to explore
+      different avenues of interactivity, communication, applications in the digital & tangible mediums.
+    </p>
+  </div>
+
+  <div class="ux">
+    <div class="ux-project">
+      <a href="https://www.thatworkedyesterday.com/mystery-box" target="_blank">
+        <img src="./images/thumbnails/thebox.png" class="ux-image" alt="A box with a refective black finish has multiple knobs and dials. Also colorful wires and a iPad on the surface.">
+        <h3 class="card-title">The Mystery Box: An Interactive arcade installation</h3>
+        <p class="card-subtitle">ITP . INTERACTIVE installation</p>
+      </a>
+    </div>
+
+    <div class="ux-project">
+      <a href="https://www.thatworkedyesterday.com/playcook" target="_blank">
+        <img src="./images/thumbnails/playcook.png" class="ux-image" alt="A person wearing an apron with different fabrics sown in, facing an iPad on a kitchen counter.">
+        <h3 class="card-title">Playcook: A wearable cooking assitant iOS app </h3>
+        <p class="card-subtitle">ITP . IOT, App Design</p>
+      </a>
+    </div>
+
+    <div class="ux-project">
+      <a href="https://www.thatworkedyesterday.com/designing-for-ml" target="_blank">
+        <img src="./images/thumbnails/machine-learning.png" class="ux-image" alt="Illustration of a human body structure from chest up in a waving action.">
+        <h3 class="card-title">Designing for Machine Learning Applications</h3>
+        <p class="card-subtitle">ITP. UX, WEB, ml5, tensorflow</p>
+      </a>
+    </div>
+
+    <div class="ux-project">
+      <a href="https://www.thatworkedyesterday.com/motion-music" target="_blank">
+        <img src="./images/thumbnails/minionfun.png" class="ux-image" alt="Illustration of a human body structure from chest up in a waving action.">
+        <h3 class="card-title">Motion music: using body as a cursor</h3>
+        <p class="card-subtitle">ITP. Web Experience</p>
+      </a>
+    </div>
+
+
+  </div>
+  </div>
+  <!-- Design + Code Section ENDS -->
+
+  <!-- About Section BEGINS -->
+  <div class="about" id="about">
+    <h2><span class="underline-magical-sub-header">About</span></h2>
+    <img src="./images/atharvaProfile.jpg" alt="It's me, Atharva holding joe richtian, a dog in my arms">
+    <div class="about-grid">
+
+
+      <p>
+        I’m a <u>Product Designer & Technologist</u> based out of New York with 4+ years of expereince designing Mobile and web applications.
+        Currently a final year grad student at NYU's <u>Interactive Telecommunications program(ITP) 2020</u>
+        concentrating on experience & interaction Design & New media.</p>
+
+      <p>Experimenting designing with emerging technologies like, Machine Learning, Internet of Things(IOT), Mobile/Web Applications & Behavorial Science(Game Design).</p>
+
+      <p><b>Looking for full time opportuinities upon graduating in 2020.</b></p>
+
+      <h4>Recent workplaces:</h4>
+      <ul>
+        <li> ✈️ Product Design Intern at <a href="https://www.kayak.com" target="_blank" alt="Link to the Kayak Website">Kayak</a> for flights squad summer 2019.</li>
+        <li> 🎓 Graduate Assistant at <a href="https://tisch.nyu.edu/itp" target="_blank" alt="Link to the ITP department website">NYU ITP</a> since Feb 2019.</li>
+        <li> 🚗 Product Designer at <a href="https://www.olacabs.com" target="_blank" alt="Link to the Olacabs website">Olacabs</a> 2016-18.</li>
+      </ul>
+
+
+      <button type="button" class="button" onclick="window.open('https://drive.google.com/file/d/1wG7rxwUSErFDNVxqq9-HTF5rDBL13Jcj/view?usp=sharing','_blank');" alt="Link to Resume">Resume</button>
+
+      <br>
+      <br>
+      <br>
+      <h4>Some other things I've done over past couple years:</h4>
+      <ul>
+        <li> 📚 Completed the <a href="https://www.goodreads.com/user_challenges/2258985" target="_blank" alt="Link to goodreads 2015 challenge results">52 book challenge</a> in 2015.</li>
+        <li> 🚶 Successfully completed 22 treks across India in 2016.</li>
+        <li> 🎵 Learned amatuer level music production & <a href="https://www.youtube.com/playlist?list=PL64HXchHuzQT2QpesXQxgs2TpAUNUxTFL" target="_blank" alt="Link to a youtube playlist named a burgundy bottle of cough syrup">recorded an album</a>
+          in 2018.</li>
+        <li> 🕹️ Presented <a href="https://www.thatworkedyesterday.com/mystery-box" target="_blank" alt="Link to the mystery box documentation.">the mystery box</a> at the ITP winter show in December 2018.</li>
+        <li> 🏆 <a href="http://designexpo2019.dory.me/" target="_blank" alt="Link to NYU Design expo 2019 website">Microsoft Design Expo</a> 1 of 4 NYU finalists in Team Charlotte in 2019.</li>
+      </ul>
+    </div>
+  </div>
+  <!-- About Section ENDS -->
+
+  <!-- External links Section BEGINS -->
+  <div class="footer">
+    <span><a href="https://dribbble.com/atharvapatil" target="_blank"><img src="./images/social/dribbble.svg" alt="Link to Dribble Profile"></a></span>
+    <span><a href="https://www.behance.net/atharvapatil" target="_blank"><img src="./images/social/behance.svg" alt="Link to Behance Profile"></a></span>
+    <span><a href="https://github.com/atharvapatil" target="_blank"><img src="./images/social/github.svg" alt="Link to Github Profile"></a></span>
+    <span><a href="https://www.linkedin.com/in/atharvaabhaypatil" target="_blank"><img src="./images/social/linkedin.svg" alt="Link to Linkedin Profile"></a></span>
+    <span><a href="https://twitter.com/patil4president" target="_blank"><img src="./images/social/twitter.svg" alt="Link to Twitter Profile"></a></span>
+  </div>
+  <!-- External links Section ENDS -->
+
+</body>
+
+</HTML>
