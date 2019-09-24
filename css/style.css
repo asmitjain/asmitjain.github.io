@@ -669,6 +669,7 @@ body {
     margin: 0;
     padding: 0;
   }
+  
 .education {
     margin: auto;
     max-width: 100%;
@@ -680,6 +681,7 @@ body {
   }
 
   .education-grid {
+    display: block;
     width: 100%;
     max-width: 90%;
   }
@@ -688,7 +690,7 @@ body {
     margin: 0px;
     padding-top: 18px;
     font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #17223b;
     text-align: left;
     line-height: 2.0;
@@ -705,6 +707,15 @@ body {
     border-radius: 2px;
   }
 
+  .education h2 {
+    margin: 0px;
+    padding-top: 8px;
+    font-family: 'Work Sans Semi-Bold', sans-serif;
+    font-size: 32px;
+    color: #17223b;
+    text-align: left;
+    margin-bottom: 32px;
+}
   .education h4 {
     margin: 0px;
     padding-top: 40px;
