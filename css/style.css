@@ -224,7 +224,7 @@ body {
   opacity: 1;
 }
 
-.sub-projects-image {
+.projects-image {
   display: block;
   width: 360px;
   height: 280px;
@@ -232,7 +232,7 @@ body {
   transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.sub-projects-image:hover {
+.projects-image:hover {
   border-radius: 4px 4px 0 0;
 }
 
@@ -615,7 +615,7 @@ body {
     color: #727272;
   }
 
-  .sub-projects-design {
+  .projects {
     margin: auto;
     max-width: 90%;
     margin-left: 24px;
@@ -623,7 +623,7 @@ body {
     margin-bottom: 48px;
   }
 
-  .sub-projects-design p {
+  .projects p {
     margin: 0px;
     padding-top: 20px;
     font-family: 'Varela Round', sans-serif;
