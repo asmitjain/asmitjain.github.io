@@ -335,6 +335,30 @@ body {
   color: #17223b;
   text-align: left;
   margin-bottom: 32px;
+  
+.contacts {
+  margin: auto;
+  max-width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 120px;
+}
+
+.contacts-grid {
+  display: block;
+  width: 100%;
+  max-width: 72%;
+}
+
+.contacts h2 {
+  margin: 0px;
+  padding-top: 8px;
+  font-family: 'Work Sans Semi-Bold', sans-serif;
+  font-size: 32px;
+  color: #17223b;
+  text-align: left;
+  margin-bottom: 32px;
+}
 }
 .underline-magical-sub-header {
   padding: 4px;
@@ -374,11 +398,23 @@ body {
   transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
   filter: grayscale(0.20);
 }
+.contacts img {
+  width: 100%;
+  max-width: 320px;
+  height: inherit;
+  border-radius: 8px;
+  transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  filter: grayscale(0.20);
+  
 .about img:hover {
   box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
   filter: grayscale(0);
 }
 .education img:hover {
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
+  filter: grayscale(0);
+}
+  .contacts img:hover {
   box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
   filter: grayscale(0);
 }
@@ -400,6 +436,15 @@ body {
   text-align: left;
   line-height: 2.0;
 }
+  .contacts p {
+  margin: 0px;
+  padding-top: 18px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #17223b;
+  text-align: left;
+  line-height: 2.0;
+}
 .about a {
   margin: 0px;
   padding-top: 18px;
@@ -409,6 +454,14 @@ body {
   line-height: 2.0;
 }
 .education a {
+  margin: 0px;
+  padding-top: 18px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #1565c0;
+  line-height: 2.0;
+}
+  .contacts a {
   margin: 0px;
   padding-top: 18px;
   font-family: 'Varela Round', sans-serif;
@@ -434,6 +487,15 @@ body {
   text-align: left;
   line-height: 2.0;
 }
+  .contacts h4 {
+  margin: 0px;
+  padding-top: 20px;
+  font-family: 'Work Sans Medium', sans-serif;
+  font-size: 40px;
+  color: #17223b;
+  text-align: left;
+  line-height: 2.0;
+}
 .about b {
   margin: 0px;
   padding: 8px;
@@ -446,6 +508,17 @@ body {
   border-radius: 4px;
 }
 .education b {
+  margin: 0px;
+  padding: 8px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #d32f2f;
+  text-align: left;
+  line-height: 2.0;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+  .contacts b {
   margin: 0px;
   padding: 8px;
   font-family: 'Varela Round', sans-serif;
@@ -480,7 +553,18 @@ body {
   padding-top: 16px;
   padding-left: 4px;
 }
-
+.contacts ul {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #17223b;
+  text-align: left;
+  line-height: 2.5;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-left: 4px;
+}
 .button {
   margin-top: 32px;
   background-color: #e53935;
@@ -821,6 +905,78 @@ body {
     margin: 0;
     padding: 0;
   }
+  .contacts {
+    margin: auto;
+    max-width: 100%;
+    margin-left: 24px;
+    padding-top: 100px;
+  }
+
+  .contacts-grid {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .contacts p {
+    margin: 0px;
+    padding-top: 18px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: #17223b;
+    text-align: left;
+    line-height: 2.0;
+  }
+
+  .contacts b {
+    margin: 0px;
+    padding: 12px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+    color: #d32f2f;
+    text-align: left;
+    /* line-height: 2.0; */
+    border-radius: 2px;
+  }
+
+  .contacts h4 {
+    margin: 0px;
+    padding-top: 40px;
+    font-family: 'Work Sans Medium', sans-serif;
+    font-size: 22px;
+    color: #17223b;
+    text-align: left;
+  }
+
+  .contacts ul {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: #17223b;
+    text-align: left;
+    line-height: 2.0;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    /* padding-left: 4px; */
+  }
+
+  .contacts li {
+    padding-bottom: 16px;
+  }
+
+  .contacts a {
+    padding-top: 18px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: #1565c0;
+    line-height: 2.0;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  
   .button {
     margin-top: 32px;
     background-color: #e53935;
