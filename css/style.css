@@ -156,7 +156,7 @@ body {
 }
 
 /* Personal Info on landing Ending */
-.projects-design {
+.projects {
   margin: auto;
   max-width: 80%;
   margin-left: 40px;
@@ -166,7 +166,7 @@ body {
   margin-top: 72px;
 }
 
-.projects-design h2 {
+.projects h2 {
   margin: 0px;
   /* padding-top: 8px; */
   font-family: 'Work Sans Semi-Bold', sans-serif;
@@ -176,7 +176,7 @@ body {
   /* margin-bottom: 24px; */
 }
 
-.projects-design p {
+.projects p {
   margin: 0px;
   padding-top: 24px;
   font-family: 'Varela Round', sans-serif;
@@ -224,7 +224,7 @@ body {
   opacity: 1;
 }
 
-.projects-image {
+.sub-projects-image {
   display: block;
   width: 360px;
   height: 280px;
@@ -232,7 +232,7 @@ body {
   transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.projects-image:hover {
+.sub-projects-image:hover {
   border-radius: 4px 4px 0 0;
 }
 
@@ -566,7 +566,7 @@ body {
     line-height: 1.5;
   }
 
-  .projects {
+  .sub-projects {
     margin: auto;
     margin-left: 24px;
     max-width: 90%;
@@ -615,7 +615,7 @@ body {
     color: #727272;
   }
 
-  .projects-design {
+  .sub-projects-design {
     margin: auto;
     max-width: 90%;
     margin-left: 24px;
@@ -623,7 +623,7 @@ body {
     margin-bottom: 48px;
   }
 
-  .projects-design p {
+  .sub-projects-design p {
     margin: 0px;
     padding-top: 20px;
     font-family: 'Varela Round', sans-serif;
@@ -647,7 +647,7 @@ body {
     grid-template-rows: repeat(auto, minmax(auto, 100px));
   }
 
-  .projects {
+  .sub-projects {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
     opacity: 1;
   }
