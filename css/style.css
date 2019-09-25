@@ -202,7 +202,7 @@ body {
   grid-template-rows: repeat(auto, minmax(auto, 100px));
 }
 
-.project {
+.sub-project {
   margin: 0px;
   background-color: white;
   border-radius: 8px;
@@ -213,11 +213,11 @@ body {
   transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.project a {
+.sub-project a {
   text-decoration: none;
 }
 
-.project:hover {
+.sub-project:hover {
   transform: scale(1.02);
   border-radius: 2px;
   box-shadow: 0 2px 16px #e0e0e0;
@@ -566,7 +566,7 @@ body {
     line-height: 1.5;
   }
 
-  .sub-projects {
+  .projects11 {
     margin: auto;
     margin-left: 24px;
     max-width: 90%;
