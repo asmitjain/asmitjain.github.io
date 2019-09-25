@@ -156,7 +156,7 @@ body {
 }
 
 /* Personal Info on landing Ending */
-.ux-design {
+.projects-design {
   margin: auto;
   max-width: 80%;
   margin-left: 40px;
@@ -166,7 +166,7 @@ body {
   margin-top: 72px;
 }
 
-.ux-design h2 {
+.projects-design h2 {
   margin: 0px;
   /* padding-top: 8px; */
   font-family: 'Work Sans Semi-Bold', sans-serif;
@@ -176,7 +176,7 @@ body {
   /* margin-bottom: 24px; */
 }
 
-.ux-design p {
+.projects-design p {
   margin: 0px;
   padding-top: 24px;
   font-family: 'Varela Round', sans-serif;
@@ -188,7 +188,7 @@ body {
   margin-bottom: 32px;
 }
 
-.ux {
+.prjts {
   display: grid;
   grid-column-gap: 16px;
   grid-row-gap: 56px;
@@ -202,7 +202,7 @@ body {
   grid-template-rows: repeat(auto, minmax(auto, 100px));
 }
 
-.ux-project {
+.project {
   margin: 0px;
   background-color: white;
   border-radius: 8px;
@@ -213,18 +213,18 @@ body {
   transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.ux-project a {
+.project a {
   text-decoration: none;
 }
 
-.ux-project:hover {
+.project:hover {
   transform: scale(1.02);
   border-radius: 2px;
   box-shadow: 0 2px 16px #e0e0e0;
   opacity: 1;
 }
 
-.ux-image {
+.projects-image {
   display: block;
   width: 360px;
   height: 280px;
@@ -232,7 +232,7 @@ body {
   transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.ux-image:hover {
+.projects-image:hover {
   border-radius: 4px 4px 0 0;
 }
 
@@ -615,7 +615,7 @@ body {
     color: #727272;
   }
 
-  .ux-design {
+  .projects-design {
     margin: auto;
     max-width: 90%;
     margin-left: 24px;
@@ -623,7 +623,7 @@ body {
     margin-bottom: 48px;
   }
 
-  .ux-design p {
+  .projects-design p {
     margin: 0px;
     padding-top: 20px;
     font-family: 'Varela Round', sans-serif;
@@ -635,7 +635,7 @@ body {
     margin-bottom: 32px;
   }
 
-  .ux {
+  .prjts {
     display: grid;
     grid-column-gap: 16px;
     grid-row-gap: 56px;
@@ -647,7 +647,7 @@ body {
     grid-template-rows: repeat(auto, minmax(auto, 100px));
   }
 
-  .ux-project {
+  .projects {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
     opacity: 1;
   }
