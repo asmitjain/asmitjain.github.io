@@ -427,9 +427,9 @@ body {
 }
 .education h4 {
   margin: 0px;
-  padding-top: 40px;
+  padding-top: 20px;
   font-family: 'Work Sans Medium', sans-serif;
-  font-size: 22px;
+  font-size: 40px;
   color: #17223b;
   text-align: left;
   line-height: 2.0;
@@ -764,7 +764,7 @@ body {
 
   .education p {
     margin: 0px;
-    padding-top: 18px;
+    padding-top: 10px;
     font-family: 'Varela Round', sans-serif;
     font-size: 18px;
     color: #17223b;
