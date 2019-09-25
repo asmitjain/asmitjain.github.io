@@ -19,16 +19,16 @@ function writeText() {
     loop: true
   });
 
-  typewriter.typeString('A UI/UX DESIGNER')
+  typewriter.typeString('A')
     .pauseFor(3000)
     .deleteAll(5)
-    .typeString('A CREATIVE TECHNOLOGIST')
+    .typeString('B')
     .pauseFor(3000)
     .deleteAll(5)
-    .typeString('A PROTOTYPER')
+    .typeString('C')
     .pauseFor(3000)
     .deleteAll(5)
-    .typeString('A PRODUCT DESIGNER')
+    .typeString('D')
     .pauseFor(3000)
     .deleteAll(5)
     .start();
