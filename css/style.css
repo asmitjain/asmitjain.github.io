@@ -521,7 +521,11 @@ body {
   margin-right: 40px;
   padding-top: 120px;
 }
-
+.contacts-grid {
+  display: block;
+  width: 100%;
+  max-width: 72%;
+}
   .contacts h2 {
   margin: 0px;
   padding-top: 8px;
@@ -531,12 +535,7 @@ body {
   text-align: left;
   margin-bottom: 32px;
 }
-  .contacts-grid {
-  display: block;
-  width: 100%;
-  max-width: 72%;
-}
-  .contacts h4 {
+    .contacts h4 {
   margin: 0px;
   padding-top: 20px;
   font-family: 'Work Sans Medium', sans-serif;
@@ -545,7 +544,8 @@ body {
   text-align: left;
   line-height: 2.0;
 }
-  .contacts img {
+  
+ .contacts img {
   width: 100%;
   max-width: 320px;
   height: inherit;
@@ -556,7 +556,8 @@ body {
   .contacts img:hover {
   box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
   filter: grayscale(0);
-}
+} 
+
   .contacts p {
   margin: 0px;
   padding-top: 18px;
