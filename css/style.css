@@ -419,30 +419,6 @@ body {
   text-align: left;
   margin-bottom: 32px;
   
-.contacts {
-  margin: auto;
-  max-width: 100%;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding-top: 120px;
-}
-
-.contacts-grid {
-  display: block;
-  width: 100%;
-  max-width: 72%;
-}
-
-.contacts h2 {
-  margin: 0px;
-  padding-top: 8px;
-  font-family: 'Work Sans Semi-Bold', sans-serif;
-  font-size: 32px;
-  color: #17223b;
-  text-align: left;
-  margin-bottom: 32px;
-}
-
 
   .button {
   margin-top: 32px;
@@ -474,22 +450,12 @@ body {
   transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
   filter: grayscale(0.20);
 }
-.contacts img {
-  width: 100%;
-  max-width: 320px;
-  height: inherit;
-  border-radius: 8px;
-  transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
-  filter: grayscale(0.20);
-  }
+
   .education img:hover {
   box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
   filter: grayscale(0);
 }
-  .contacts img:hover {
-  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
-  filter: grayscale(0);
-}
+  
 
 .education p {
   margin: 0px;
@@ -500,15 +466,7 @@ body {
   text-align: left;
   line-height: 2.0;
 }
-  .contacts p {
-  margin: 0px;
-  padding-top: 18px;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #17223b;
-  text-align: left;
-  line-height: 2.0;
-}
+  
 
 .education a {
   margin: 0px;
@@ -518,14 +476,7 @@ body {
   color: #1565c0;
   line-height: 2.0;
 }
-  .contacts a {
-  margin: 0px;
-  padding-top: 18px;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #1565c0;
-  line-height: 2.0;
-}
+  
 
 .education h4 {
   margin: 0px;
@@ -536,15 +487,7 @@ body {
   text-align: left;
   line-height: 2.0;
 }
-  .contacts h4 {
-  margin: 0px;
-  padding-top: 20px;
-  font-family: 'Work Sans Medium', sans-serif;
-  font-size: 40px;
-  color: #17223b;
-  text-align: left;
-  line-height: 2.0;
-}
+  
 
 .education b {
   margin: 0px;
@@ -557,17 +500,7 @@ body {
   background-color: #f0f0f0;
   border-radius: 4px;
 }
-  .contacts b {
-  margin: 0px;
-  padding: 8px;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #d32f2f;
-  text-align: left;
-  line-height: 2.0;
-  background-color: #f0f0f0;
-  border-radius: 4px;
-}
+  
 
 .education ul {
   font-family: 'Varela Round', sans-serif;
@@ -581,6 +514,79 @@ body {
   padding-top: 16px;
   padding-left: 4px;
 }
+  .contacts {
+  margin: auto;
+  max-width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 120px;
+}
+
+  .contacts h2 {
+  margin: 0px;
+  padding-top: 8px;
+  font-family: 'Work Sans Semi-Bold', sans-serif;
+  font-size: 32px;
+  color: #17223b;
+  text-align: left;
+  margin-bottom: 32px;
+}
+  .contacts-grid {
+  display: block;
+  width: 100%;
+  max-width: 72%;
+}
+  .contacts h4 {
+  margin: 0px;
+  padding-top: 20px;
+  font-family: 'Work Sans Medium', sans-serif;
+  font-size: 40px;
+  color: #17223b;
+  text-align: left;
+  line-height: 2.0;
+}
+  .contacts img {
+  width: 100%;
+  max-width: 320px;
+  height: inherit;
+  border-radius: 8px;
+  transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  filter: grayscale(0.20);
+  }
+  .contacts img:hover {
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
+  filter: grayscale(0);
+}
+  .contacts p {
+  margin: 0px;
+  padding-top: 18px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #17223b;
+  text-align: left;
+  line-height: 2.0;
+}
+  .contacts b {
+  margin: 0px;
+  padding: 8px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #d32f2f;
+  text-align: left;
+  line-height: 2.0;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+  .contacts a {
+  margin: 0px;
+  padding-top: 18px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #1565c0;
+  line-height: 2.0;
+}
+  
+  
 .contacts ul {
   font-family: 'Varela Round', sans-serif;
   font-size: 20px;
