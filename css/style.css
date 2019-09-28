@@ -285,6 +285,26 @@ body {
   border-radius: 6px;
 }
 
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px -2px 4px #f0f0f0;
+  margin-top: 120px;
+  z-index: 1;
+}
+.footer span {
+  margin: auto;
+  margin: 8px;
+}
+.footer a {
+  margin: auto;
+  text-decoration: none;
+}
 
 .education {
   margin: auto;
