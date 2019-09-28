@@ -328,11 +328,9 @@ body {
   color: #17223b;
   text-align: left;
   margin-bottom: 32px;
-  
-
-  
+    
 .education img {
-  width: 100%;
+  width: 60%;
   max-width: 600px;
   height: inherit;
   border-radius: 8px;
