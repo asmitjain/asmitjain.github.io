@@ -232,36 +232,7 @@ body {
   background-color: #f0f0f0;
   border-radius: 4px;
 }
-  /*.about a {
-  margin: 0px;
-  padding-top: 18px;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #1565c0;
-  line-height: 2.0;
-}
-  .about h4 {
-  margin: 0px;
-  padding-top: 40px;
-  font-family: 'Work Sans Medium', sans-serif;
-  font-size: 22px;
-  color: #17223b;
-  text-align: left;
-  line-height: 2.0;
-}
-  
-  .about ul {
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #17223b;
-  text-align: left;
-  line-height: 2.5;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-top: 16px;
-  padding-left: 4px;
-}*/
+ 
 .button {
   margin-top: 32px;
   background-color: #e53935;
@@ -532,33 +503,8 @@ body {
   text-transform: uppercase;
 }
 
-  /*
-.antiportfolio {
-  /* margin-left: 40px;
-  padding-top: 40px;
-}
-
-.antiportfolio p {
-  text-decoration: underline;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  padding: 16px;
-  color: #c62828;
-  text-align: left;
-  line-height: 2.0;
-  background-color: #f0f0f0;
-  padding-left: 40px;
-  transition: 0.3s cubic-bezier(0.42, 0, 1, 1);
-}
-
-.antiportfolio p:hover {
-  background-color: #101010;
-}
-
-.antiportfolio a {
-  text-decoration: none;
-}*/
-  .contacts {
+  
+.contacts {
   margin: auto;
   max-width: 100%;
   margin-left: 40px;
@@ -579,18 +525,6 @@ body {
   text-align: left;
   margin-bottom: 32px;
 }
-  .contacts img {
-  width: 100%;
-  max-width: 320px;
-  height: inherit;
-  border-radius: 8px;
-  transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
-  filter: grayscale(0.20);
-}
-  .contacts img:hover {
-  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
-  filter: grayscale(0);
-} 
   .contacts p {
   margin: 0px;
   padding-top: 18px;
@@ -612,37 +546,7 @@ body {
   background-color: #f0f0f0;
   border-radius: 4px;
 }
- /* .contacts a {
-  margin: 0px;
-  padding-top: 18px;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #1565c0;
-  line-height: 2.0;
-}
-  
-   .contacts h4 {
-  margin: 0px;
-  padding-top: 20px;
-  font-family: 'Work Sans Medium', sans-serif;
-  font-size: 40px;
-  color: #17223b;
-  text-align: left;
-  line-height: 2.0;
-}
-  
-.contacts ul {
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #17223b;
-  text-align: left;
-  line-height: 2.5;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-top: 16px;
-  padding-left: 4px;
-}*/
+
 
 
 #email {
@@ -814,79 +718,7 @@ body {
     padding-right: 6px;
   }
 
-  /*
-  .about {
-    margin: auto;
-    max-width: 100%;
-    margin-left: 24px;
-    padding-top: 100px;
-  }
-
-  .about-grid {
-    width: 100%;
-    max-width: 90%;
-  }
-
-  .about p {
-    margin: 0px;
-    padding-top: 18px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: #17223b;
-    text-align: left;
-    line-height: 2.0;
-  }
-
-  .about b {
-    margin: 0px;
-    padding: 12px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 13px;
-    color: #d32f2f;
-    text-align: left;
-    /* line-height: 2.0; */
-   
-  /*border-radius: 2px;
-  }
-
-  .about h4 {
-    margin: 0px;
-    padding-top: 40px;
-    font-family: 'Work Sans Medium', sans-serif;
-    font-size: 22px;
-    color: #17223b;
-    text-align: left;
-  }
-
-  .about ul {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: #17223b;
-    text-align: left;
-    line-height: 2.0;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    /* padding-left: 4px; */
-  }
-/*
-  .about li {
-    padding-bottom: 16px;
-  }
-
-  .about a {
-    padding-top: 18px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: #1565c0;
-    line-height: 2.0;
-    list-style-type: none;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-  }
+  
   
 
 .education {
@@ -959,92 +791,8 @@ body {
     text-align: left;
     margin: 0;
     padding: 0;
-  }
-  .contacts {
-    margin: auto;
-    max-width: 100%;
-    margin-left: 24px;
-    padding-top: 100px;
-  }
-
-  .contacts-grid {
-    width: 100%;
-    max-width: 90%;
-  }
-
-  .contacts p {
-    margin: 0px;
-    padding-top: 18px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: #17223b;
-    text-align: left;
-    line-height: 2.0;
-  }
-
-  .contacts b {
-    margin: 0px;
-    padding: 12px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 13px;
-    color: #d32f2f;
-    text-align: left;
-    /* line-height: 2.0; 
-    border-radius: 2px;
-  }
-
-  .contacts h4 {
-    margin: 0px;
-    padding-top: 40px;
-    font-family: 'Work Sans Medium', sans-serif;
-    font-size: 22px;
-    color: #17223b;
-    text-align: left;
-  }
-
-  .contacts ul {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: #17223b;
-    text-align: left;
-    line-height: 2.0;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    /* padding-left: 4px; 
-  }
-
-  .contacts li {
-    padding-bottom: 16px;
-  }
-
-  .contacts a {
-    padding-top: 18px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: #1565c0;
-    line-height: 2.0;
-    list-style-type: none;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .button {
-    margin-top: 32px;
-    background-color: #e53935;
-    color: white;
-    padding: 16px 16px 16px 16px;
-    text-align: left;
-    font-family: 'Work Sans Bold', sans-serif;
-    font-size: 20px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
   }*/
-
+  
   .footer span {
     margin: auto;
     margin-left: 12px;
