@@ -348,53 +348,7 @@ body {
   padding-right: 6px;
   text-transform: uppercase;
 }
-/*
-.education p {
-  margin: 0px;
-  padding-top: 18px;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #17223b;
-  text-align: left;
-  line-height: 2.0;
-}
-  
 
-.education a {
-  margin: 0px;
-  padding-top: 18px;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #1565c0;
-  line-height: 2.0;
-}
-  
-
-.education b {
-  margin: 0px;
-  padding: 8px;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #d32f2f;
-  text-align: left;
-  line-height: 2.0;
-  background-color: #f0f0f0;
-  border-radius: 4px;
-}
-  
-
-.education ul {
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #17223b;
-  text-align: left;
-  line-height: 2.5;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-top: 16px;
-  padding-left: 4px;
-}*/
   
 /* Personal Info on landing Ending */
 .project-design {
@@ -791,12 +745,6 @@ body {
     text-align: left;
     margin: 0;
     padding: 0;
-  }*/
-  
-  /*.footer span {
-    margin: auto;
-    margin-left: 12px;
-    margin-right: 12px;
   }*/
 }
 
