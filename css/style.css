@@ -355,21 +355,21 @@ body {
   margin: auto;
   max-width: 100%;
   margin-left: 40px;
-  margin-right: 40px;
+  /*margin-right: 40px;*/
   padding-top: 120px;
-  /*margin-bottom: 48px;
+  margin-bottom: 48px;
   margin-top: 72px;*/
 }
 
  
 .project-design h2 {
   margin: 0px;
-  padding-top: 8px; 
+  /*padding-top: 8px; */
   font-family: 'Work Sans Semi-Bold', sans-serif;
   font-size: 32px;
   color: #17223b;
   text-align: left;
-  margin-bottom: 24px;
+  /*margin-bottom: 24px;*/
 }
 
 .project-design p {
