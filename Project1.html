@@ -34,6 +34,7 @@
 <br>
         <br>
       <h2> Designing, Prototyping & Validating a Digital Motor Controlled 3D Scanner for Macroscopic Medical Application</h2>
+        <br>
       <img src="./images/asmitjainSCANNER.jpg" alt="My 3D Scanning Device" class="center">
       <br>
       <p>To circumvent the difficulties encountered during the methods of eye estimation, tape and caliper, there is a need to 
@@ -41,10 +42,10 @@
         are available devices in the market which are difficult in turning camera at high speed and are slow in image processing 
         based on the target detection. 
 
-        This study will deal with a design methodology which will help us to get 3D images in a very less turnaround time. 
-        The aim of this study is to generate a devices which can capture high resolution, reliable images and combine them 
-        together using the techniques called Photogrammetry. The primarily target area for this study would be for the medical
-        applications e.g. Monoclonal cells or manufacturing industries for macroscopic products.</p>
+        This study will deal with a design methodology which will help us to devlop a scanner to generate 3D models for medical research.
+        A device which can capture high resolution, reliable images and combine them together using the technique called Photogrammetry. 
+        The primarily target area for this study would be for developing scanned models for medical applications e.g. Monoclonal cells
+        or manufacturing industries for macroscopic products.</p>
         <br>
         
         <img src="./images/asmitjainPHOTOGRMTRY.png" alt="Photogramettry" class="center">
@@ -61,8 +62,7 @@
       •	A fully automatic process for image acquisition and report generation
     <br>
       •	Automation of repetitive tasks with the use of macros
-      <br>
-        •	Compact volume for easy transport
+      
       <br>
         •	Faster and more accurate decision making
 <br>
@@ -75,14 +75,29 @@
         
         
         <img src="./images/asmitjain3DSCANNER1.png" alt="Photogramettry" class="center">
-        <br>
         <img src="./images/asmitjain3DSCANNER2.png" alt="Photogramettry" class="center">
+        <br>
+        I started this project by making a few CAD models using SolidWorks. There are two pictures attached with an isometric view and a
+        side view. The model contains an arm which hold a camera unit. The arm is mounted on a mechanical stage (PI U-651) which rotates the camera
+        in 360 degree. This mechanical stage is connected to a breadboad which keeps the setup stable. To avoid floor vibrations and noise,
+        we mounted all these components on a TMC Optical Table. 
+        <br>
+        A Basler ACE A2040 camera unit with Mitutoyo 20x infinite corrected objective lens was used which were mounted on a 3D printed arm.
+        Several design iterations were made for the 3D printed part based on the external forces. I also did some FEA analysis using ANSYS.
         <br>
         <img src="./images/asmitjain3DSCANNER3.png" alt="Photogramettry" class="center">
         <br>
+        Later, some modifications were made in the camera mounting clamps for robust design. 
+        <br>
         <img src="./images/asmitjain3DSCANNER4.png" alt="Photogramettry" class="center">
       <br>
-      <br>
+      After three iterations, we were able to get a good design for our 3D scanner prototype. Several parts were 3D printed to mount
+        all the equipment together on an optical bench. Some trials were taken at different speeds using PI controller to see how intact
+        the prototype is. The results were quite satisfactory. Slider mechanism works amazingly well to change the working distance
+        of the optical unit. Some trials were taken to check the effects of the spring on an uneven surface. The caster ball supports 
+        the heavy optical unit very well without bending the arm.
+        <br>
+        Work is still in progress. Please stay tuned for some sample images taken by this setup.
       <br>
     </div>
    <!-- Project1 Section ENDS -->
