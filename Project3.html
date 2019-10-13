@@ -33,7 +33,7 @@
         <div class="project-grid">
         <br>
         <br>
-      <h2> PLC Programming for Automating Industrial Processes</h2>
+      <h2> PLC Programming for Automating Industrial Processes using AB Rockwell Automation & Siemens</h2>
         <br>
         <br>
       <p><b><i> MOTIVATIOIN:</i></b>
@@ -45,6 +45,7 @@
         <br>
       <p><b><i> SOFTWARE USED:</i></b>
         <br>    
+        <br>
         I used two softwares to write complex PLC pragrams.
         <br>
         1. Allen Bradley Rockwell Automation RX Logix 500 programming package
@@ -55,6 +56,7 @@
         <br>
       <p><b><i> PROGRAMMING LANGUAGES:</i></b>
         <br>    
+        <br>
         I got an opportunity to learn PLC using all of the 5 IEC languages.
         <br>
         1. LAD: Ladder Logic
@@ -82,8 +84,9 @@
          <img src="./images/asmitjainP3_GRAPH.PNG" alt="PLC" class="center">
         <br>
         <br>
-      <p><b><i> PROJECTS:</i></b>
-        <br>    
+      <p><b><i> PROJECT LIST:</i></b>
+        <br>
+        <br>
         I coded multiple PLC programs to solve industrial challenges and automate processes for enhancing productivity using 
         RSLogix & Siemens. The applications include: 
         <br>
@@ -110,19 +113,89 @@
         <br>
         11. PLC programming for Hydroelectric Power Plant in Siemens TIA Portal V15 with PLCSIM
         <br>
-        Please feel free to contact me if you would like to see the project files. Just to give you an idea, I have mentioned two projects
-        in detail. 
+        <br>
+        Please feel free to contact me if you would like to see the project files. Just to give you an idea how it works, 
+        I have mentioned a project below in detail. 
         <br>
         <br>
-            
-            
+        <br>
+        
+       <b> Digital Filling station for a conveyor belt carrying boxes with colored labels </b>
        <br>
        <br>
-       
-      
-      
-      
-      
+        <u> Process:</u>
+        <br>
+        <br>
+        A conveyor belt carries boxes with colored labels to our filling station and beyond. The proximity switch
+        closes when a box arrives, and either a red or blue photo eye tells us which label is on the box. Red
+        labeled boxes get filled with pecans and blue labels are for walnuts. A level sensor tells us when the box
+        is full and ready to send along.
+        <br>
+        <img src="./images/asmitjainP3_1.PNG" alt="PLC" class="center">
+        <br>
+        <br>
+        <u> IO / Assigned Memory:</u>
+        <br>
+        <br>
+        I:0/0 ‐ Proximity switch (closes when a box is near)
+        I:0/1 ‐ Level sensor (closes when the box is full)
+        I:0/2 ‐ Red photo eye (closes when a red label is in front of it)
+        I:0/3 ‐ Blue photo eye (closes when a blue label is in front of it)
+        O:0/0 ‐ Conveyor motor (makes the conveyor move forward when closed)
+        O:0/1 ‐ Walnut hopper (when closed, solenoid opens allowing contents to fall from the hopper)
+        O:0/2 ‐ Pecan hopper (when closed, solenoid opens allowing contents to fall from the hopper)
+        <br>
+        <br>
+        <u> Test Criteria:</u>
+        <br>
+        <br>
+        
+        To start, run the program on Emulate. The conveyor motor should start immediately but both hoppers
+        should be off.
+        Next, force only the proximity switch on (closed). The conveyor motor should shut off, and both hoppers
+        should remain deenergized.
+        Third, leave the proximity switch switch closed and force the red photo eye on as well. The conveyor
+        motor and the walnut hopper should remain off, but the pecan hopper should energize.
+        Fourth, leave the proximity switch closed and force the red photo eye off and the blue photo eye on.
+        The conveyor motor should remain off, but the pecan hopper should deenergize and the walnut hopper
+        should energize.
+        Next step, force the level sensor on. The hoppers should both deenergize and the conveyor should start
+        back up to move the box forward.
+        Finally, force the proximity switch, the level sensor and both photo eyes off. Both hoppers should
+        remain deenergized and the conveyor should keep running.
+        Bonus test: with the proximity switch and level sensor deenergized, force both photo eyes on. Neither
+        hopper should energize. (We don’t want to release product when there isn’t a box to catch it in.)
+<br>
+        <br>
+        <u> Results:</u>
+        <br>
+        <br>
+        <img src="./images/asmitjainP3_2.PNG" alt="PLC" class="center">
+        <br>
+        In this ladder, I have defined all the other ladders for Input/ Output, Control Logic & Cycle. This will allow the program to
+        read these ladders while running. If we do not mention the ladders here in LAD2, the PLC will not read that ladder.
+        <br>
+        <br>
+        <img src="./images/asmitjainP3_3.PNG" alt="PLC" class="center">
+        <br>
+        In LAD3, we define all the inputs and outputs. As soon as the input condition get TRUE, it will energize the corresponding output.
+        <br>
+        <br>
+        <img src="./images/asmitjainP3_4.PNG" alt="PLC" class="center">
+        <br>
+        <img src="./images/asmitjainP3_5.PNG" alt="PLC" class="center">
+        <br>
+        This is the control ladder. It controls all the output bits. For example, B3:0/8 condition gets TRUE/ FALSE, it will energize
+        a bit, B3:0/5 on this ladder. After this bit energizes/ deenergizes, it goes to the Input/Output ladder. It will read rung 5, will
+        make B3:0/5 TRUE here, and will energize output, O:0/1.  
+        <br>
+        <br>
+        <img src="./images/asmitjainP3_6.PNG" alt="PLC" class="center">
+        <br>
+        This ladder will help to determine the cycle based on the operations. It can tell the machine to bring a box, fill the box and unload
+        the station after filling. It will also tell if the box is in between any of the above mentioned cycle.
+        <br>
+        <br>
       
       </p>
       </div>
