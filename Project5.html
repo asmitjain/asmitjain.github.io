@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Asmit Jain's Project 5</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <script src="./js/index.js"></script>
+  <!-- Sticky Header BEGINS -->
+  <div id="sticky-header">
+    <div class="top-navigation">
+      <span><a href="index.html">ASMIT JAIN</a></span>
+      <span><a href="index.html#project-design">PROJECTS</a></span>
+      <span><a href="index.html#about">ABOUT</a></span>
+      <span><a href="https://drive.google.com/file/d/1mKp8SMaigExeC5JSFWjSTU_Aj5dEMAst/view" target="_blank">RESUME/CV</a></span>
+     </div>
+  </div>
+  <!-- Sticky Header ENDS -->
+  
+  
+  <!-- Project5 Section BEGINS -->
+    <div class="project-design" id="project-design">
+      <h2><span class="underline-magical-sub-header">Project 2</span></h2>
+        <div class="project-grid">
+        <br>
+        <br>
+      <h2> Modelling, Simulating & Optimizing Formula SAE Chassis using SolidWorks & ANSYS </h2>
+        <br>
+    <br>
+    <img src="./images/asmitjainP5_1.PNG" alt="FSAE" class="center">
+        <br>
+      <p><b><i> MOTIVATIOIN:</i></b>
+        <br>
+      A chassis is considered as a mainstay of a vehicle. It provides strength to support all the sub-systems and payload 
+      placed upon them along with the driver’s safety. The biggest challenge faced by automobile designers is to make an 
+      aesthetic chassis design with maximum performance and material utilization. But the process gets highly complicated 
+      when all the components are considered together to perform a crucial function. This project highlights the importance 
+      of modelling and simulation methods to ensure a safe chassis design in a crash test scenario. The first phase of this 
+      project concentrates on methodologies used for modelling a chassis. This section will introduce techniques to represent 
+      a complex geometry model using Finite Element Methods. In the latter section, we will explore ways to analyse the model 
+      for different static trials by imposing extreme crash conditions. Additionally, we will scrutinize the critical sections
+      of the model by using submodeling method. Upon examination of all the test results of complete design, this project will 
+      aim at optimizing and redesigning the current chassis design without compromising the safety requirements. This study will
+      help us to get valuable insights regarding the parameters which could be considered to make an optimum and torsionally 
+      rigid chassis helping drivers to improve ride quality, handling and stability.
+      <br>
+      <br>
+      <p><b><i> MATERIALS AND METHODS:</i></b>
+        <br>
+      <u><b>Design Methodology:</b></u> Based on the finite element analysis, there are three ways to represent a model based on the its complexity. 
+      We always look for the one which are fast in computation and gives the accurate results. There are three classical ways by which
+      we can represent a model: Beam element (1-D line), Shell element (2-D plane) and Solid element (3-D solid).
+      <br>
+      <br>
+           
+      For this analysis, we will model the chassis by beam elements. Once the modelling method is decided, we are good to proceed 
+      with the sketching part. But before using any CAD software to make it, we must refer the FSAE rulebook to estimate the ballpark
+      vehicle configuration like wheelbase & track, height, driver’s cell requirements, suspension mounting points etc. Because any 
+      deviation from the rulebook can cost us huge penalties. After the ballpark calculations, we can represent the chassis use 
+      three-dimensional Computer-Aided Design software SolidWorks 2017 and can save the file as [dot]IGES format. A complete design is
+      shown below.
+      <br>
+      <img src="./images/asmitjainP5_2.PNG" alt="FSAE" class="center">
+      <br>
+      <br>
+      Saving file in IGES format may require some additional settings which are essential for exporting the beam element file in simulation 
+      software. The important thing to remember is that it is not as easy to save a 3D line sketch as it looks. This might be a little tricky 
+      process. We need some additional settings in SolidWorks under a save options. The process can be followed as:
+      <br>
+      Click on <i>Save as</i> > click on <i>Save as type</i> > Select <i>IGES</i> > click <i>Options</i> > Select <i>Manifold
+      Solid (type - 186)</i> in IGES solid / surface entities > Select <i>B - Splines (Entity type - 126)</i> >
+      Check <i>Export Sketch entities</i> > press <i>OK</i> > <i>Save</i>
+      <br>
+      <br>
+      <p><b><i> MATERIAL SELECTION:</i></b>
+        <br>
+      After saving the line sketch in IGES format, the systematic approach would be to choose a proper material. The chassis undergoes
+      various kinds of forces during the dynamic event. To stay intact without yielding, material plays a crucial role.
+      <br>
+      <br>
+There are basically three choices of material available for the chassis. Mild steel, Drawn Over Mandrel (DOM) and Chromoly steel.
+Mild steel tubing is 1010 or higher grade. This material is not so strong as compared to others but is acceptable with proper design. 
+DOM is 1018 up to 1026 grade. The higher the number, greater is the carbon content. 4130 chromoly steel is a true seamless tube, with
+chromium and molybdenum added for strength and light weight. Also, this is available in wide variety of cross section which makes 
+easier for selection. The only disadvantage of AISI 4130 is that it is highly expensive and can be used only if the budget is high. 
+But the driver’s safety is of utmost important. Based on all these factors, we will go ahead with AISI 4130. Material comparison and 
+description based on their chemical, physical and mechanical properties can be seen below.
+      <br>
+      <img src="./images/asmitjainP5_3.PNG" alt="FSAE" class="center">
+      <br>
+      <br>
+      Steel is steel. If it processes like steel, it will perform like steel. Think of it - you don’t need to alter your
+      manufacturing design and processes to take weight out of your vehicle. Alternating material is the solution for this.
+      In the table 2, we can see the ultimate tensile strength of 4130 is high over 1018 which provides high strength to weight ratio.
+      Density is directly related to the mass. Additionally, machinability, chip formation and corrosion resistance are higher in 4130.
+      <br>
+      <br>
+      Referring to the FSAE rulebook, there are minimum tubing requirements which every vehicle must fulfil. At this moment, we 
+      must decide which cross section to be assigned on the chassis parts. For this study, we have considered three different cross
+      section round tubes. A graphical representation can be seen in below for better visualization. Round tubes 
+      of 1.0 in x 0.095 in for Main and Front Hoops (Red), 1.0 in x 0.065 in for Base frame, Side members, Front and Rear Bulk head 
+      (Blue). For all the bracing support members, we have considered 1.0 in x 0.047 in. (Grey)
+      <br>
+      <img src="./images/asmitjainP5_4.PNG" alt="FSAE" class="center">
+      <br>
+      <br>
+      <p><b><i> SIMULATION METHODOLOGY:</i></b>
+      <br>
+      After the material selection, we are ready to perform different types of static on our model in ANSYS Workbench 18.2. 
+      But before moving further, we should understand some basics of Finite Element formulations/ methods.
+      <br>
+      <br>
+In real life engineering and physics problems, the design geometry gets more complex. To study the physical behaviour and performance 
+of these complex objects under loading conditions, we need some numerical methods for validifying the design. For this, Finite Element 
+Method (FEM) plays a crucial role where analytical solution is difficult to obtain. FEM discretizes a problem into small bodies 
+(finite element) which are connected by common points and creates a mathematical model to obtain the approximate the solutions 
+for boundary values problems. For this analysis, beam, shell and solid element could be used. Here, the choice of selecting the 
+type of element for analysis is completely one’s decision. A shell element is abstracted to 2D element which stores the third 
+dimension as a thickness on physical property table. While a beam element is abstracted to 1D element by storing the 2D cross 
+section as separate beam section property. Although, each level of extraction requires more preparation time, but reduces the 
+computational time since they allow modelling with fewer mesh elements as compared to the solid elements. In this study, for 
+long narrow structural members found in FSAE chassis, we will use the beam element as it is mainly for structural members. 
+Each beam element is defined by a straight-line connecting two joints at its end. ANSYS 18.2 uses Beam 188 element which is a
+linear (2-node) with six degrees of freedom at each node. The degrees of freedom at each node include translations and rotation
+in x, y, and z directions.
+<br>
+<br>
+Now, to set up a beam element model of a chassis for the simulation in ANSYS 18.2, we need to export the IGES file and assign the
+cross section to the line bodies in Geometry. The systematic approach to set the model up can be referred below:
+<br>
+<br>
+Right click on <i>Geometry Tab</i> > <i>Export</i> > select <i>IGES file</i> > Open <i>Design Modeler</i> >
+<i>uncheck Solid bodies and Surface bodies</i> in details of import > check <i>line bodies</i> >
+click <i>Generate</i>
+<br>
+<br>
+But before importing line sketch, we must create our material. Once it is done, the file can be imported in Design Modeler. 
+A complete guide for material selection and assigning cross section is mentioned in the next paragraph. The complete 
+model would look similar to the figure below after following all the steps.
+<br>
+      <img src="./images/asmitjainP5_5.PNG" alt="FSAE" class="center">
+      <br>
+      <br>
+      These steps would guide you to import the beam element chassis to ANSYS design modeler with some additional settings, 
+      assign the desired cross section and the material to the frame. To initiate this, we will open a new ANSYS Workbench 
+      and would drag a static structural type in Project Schematic. Next, we will click the Engineering data to assign the 
+      material. AISI 4130 is not an inbuilt material and hence would need to do that. Referring to the material properties 
+      table in the previous section, we can create the materials. After this, we would click on right click on the Geometry 
+      tab. After this, go to concept and create three different circular tubes and assign the cross section which we decided 
+      in the previous section. Assign the desired tube to each line body. On completion of this, select all the line bodies
+      and form a new part by a simple right click. Here we are ready with the model in ANSYS. These steps for setting up the 
+      model is a general procedure and would be same for all types of analysis. After this, click on the Model (option 4) which
+      will initiate the Mechanical. We can now assign the material and check the weight by clicking on the definition of a part.
+      Click on the material assignment and select the AISI 4130 from the drop-down menu. we can check the model with circular tubes, 
+      we can turn on the thick shells and beams option under the view tab.
+      <br>
+      <br>
+      Next, we would create the mesh on the model. Figure below shows the final mesh pattern on a chassis. As this is a beam element, 
+      we don’t have much options to refine the mesh. After meshing, we would set all the boundary conditions before applying force 
+      for testing.
+     <br>
+      <img src="./images/asmitjainP5_6.PNG" alt="FSAE" class="center">
+      <br>
+      <br> 
+      To set the boundary conditions, we create named nodal selections to apply force and constraints. Nodal selection for forces 
+      changes for every analysis type but remains same for constraints. In the figure below, nodal selection for force, which is 
+      represented by (A) and nodal selections for front suspension points, represented by (B) are shown. We have selected every 
+      node on the front section to distribute force equally. To apply constraints, we will fix both front and rear suspension 
+      pick-up point. To constraint the motion and rotation in any direction, we will apply displacement and rotation boundary 
+      condition which are presented in next figure.
+      <br>
+      <img src="./images/asmitjainP5_7.PNG" alt="FSAE" class="center">
+      <br>
+      <img src="./images/asmitjainP5_8.PNG" alt="FSAE" class="center">
+      <br>
+      <br>
+      <p><b><i> APPROACH:</i></b>
+      <br>
+      During the dynamic state, the chassis experiences a lot of twisting, vibrations, shock, buckling and other variety of
+      stresses due to loads, forces, weight transfer etc. To overcome this, we can perform two types of analysis, i.e.; static 
+      and dynamic analysis. Static analysis is done for the vehicle which is in the stationary position while the dynamic analysis
+      is done for the vehicle which is in motion.
+      <br>
+      <br>
+Few points to note about the static and dynamic analysis are worth noticing. In static analysis, load applied is slowly which means
+that the load frequency is smaller than the natural frequency. But in dynamic analysis, load applied is over some time or frequency.
+Here the load frequency is in the range of natural frequency. Another point to note here is that the time and inertial effect are 
+irrelevant in static analysis but not in dynamic analysis. To perform the static analysis, we use the Static Structural options and 
+for analysis considering dynamic analysis, we use Explicit Dynamics option. As this is a beam element, dynamic analysis is not
+applicable. It requires solid model only. There are seven types of static analysis:
+<br>
+<br>
+<u>1. Free – Run Modal Analysis:</u> This is the primary test which is performed after assigning the cross-sections and material 
+to the chassis. The aim of this analysis is to check the line body connections. While sketching a 3D model in CAD software, there 
+might be a case where some lines lack proper connection with each other having some tolerance value. As the model is complex, we
+might miss some of the fine details. To check this, we apply frequency from 0 to 1000 Hz and set number of mode shapes, say 20,
+in modal analysis. Once we get the displacement results, we can create mode shapes by selecting the time duration. On evaluating 
+all those results, we would be able to see the joints which are not connected. We can list down all the unconnected members and 
+can connect them with the help of “connect” tool in ANSYS 18.2. This free run is a basic requirement before proceeding with static
+and dynamic analysis. If the geometry is not properly corrected, we will not get exact results.
+<br>
+<u>2. Front Impact Analysis:</u> Once all the connections are made, the load will be calculated based on the weight of the vehicle 
+and the maximum velocity that it can achieve. A complete guide for calculations is mentioned below. Based
+on these calculation, the load will be applied on the front most support members of the frame and the subsequent deflection and
+stresses developed will be observed. We will apply constraints on the front and rear suspension mounting points. The deflection
+of any of the members is not expected to be higher than 5-6 mm and the stress values should be such that a factor of safety is 
+obtained keeping in mind the reliability factor of the material. The subsequent design changes, if any, will be made and the 
+frame will be retested until the targets are met.
+<br>
+<img src="./images/asmitjainP5_9.PNG" alt="FSAE" class="center">
+<br>
+<br>
+<u>3. Rear impact test:</u> This test is similar to the front impact test, just that it will be subjecting the rear most members 
+of the frame. Here too the deflection and stress values must fall under a specified level to pass muster. Especially in this test 
+since the rear members directly protect the most critical components of the vehicle the values must adhere to a strict limit.
+<br>
+<u>4. Side impact test:</u> In this test the vehicle will be tested for load bearing capacities in case of a sideways impact. Again,
+this test is like the frontal or rear impact tests in methodology and intent. The frame will be subjected to a load on the side impact 
+members and the consequent deflections and stresses will be observed. As the side members of a frame is close to the driver, this test 
+is of utmost importance.
+      
+      
+      
+      
+      
+      
+      </p>
+      </div>
+
+      
+   <!-- Project5 Section ENDS -->
+      
+<!-- External links Section BEGINS -->
+  <div class="footer">
+    <span><a href="https://github.com/asmitjain" target="_blank"><img src="./images/social/github.svg" alt="Link to Github Profile"></a></span>
+    <span><a href="https://www.linkedin.com/in/thisisasmit" target="_blank"><img src="./images/social/linkedin.svg" alt="Link to Linkedin Profile"></a></span>
+    <span><a href="https://twitter.com/thisisasmit" target="_blank"><img src="./images/social/twitter.svg" alt="Link to Twitter Profile"></a></span>
+  </div>
+  <!-- External links Section ENDS -->
+
+</body>
+
+</HTML>
