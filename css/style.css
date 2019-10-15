@@ -271,6 +271,38 @@ body {
   text-transform: uppercase;
 }
 
+.workexp-design {
+  margin: auto;
+  max-width: 100%;
+  margin-left: 40px;
+  /*margin-right: 40px;*/
+  padding-top: 120px;
+  margin-bottom: 48px;
+  margin-top: 72px;*/
+}
+
+ 
+.workexp-design h2 {
+  margin: 0px;
+  /*padding-top: 8px; */
+  font-family: 'Work Sans Semi-Bold', sans-serif;
+  font-size: 32px;
+  color: #17223b;
+  text-align: left;
+  /*margin-bottom: 24px;*/
+}
+
+.workexp-design p {
+  margin: 0px;
+  padding-top: 24px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #373737;
+  text-align: left;
+  text-overflow: ellipsis;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
 .about {
   margin: auto;
   max-width: 100%;
@@ -542,6 +574,25 @@ body {
     padding-left: 16px;
     padding-bottom: 24px;
     padding-right: 6px;
+  }
+  .workexp-design {
+    margin: auto;
+    max-width: 90%;
+    margin-left: 24px;
+    padding-top: 100px;
+    margin-bottom: 48px;
+  }
+
+  .workexp-design p {
+    margin: 0px;
+    padding-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: #373737;
+    text-align: left;
+    text-overflow: ellipsis;
+    line-height: 1.8;
+    margin-bottom: 32px;
   }
 }
 
