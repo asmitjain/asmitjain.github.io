@@ -76,9 +76,9 @@
       software. The important thing to remember is that it is not as easy to save a 3D line sketch as it looks. This might be a little tricky 
       process. We need some additional settings in SolidWorks under a save options. The process can be followed as:
       <br>
-      Click on <i>Save as</i> > click on <i>Save as type</i> > Select <i>IGES</i> > click <i>Options</i> > Select <i>Manifold
+      <b>Click on <i>Save as</i> > click on <i>Save as type</i> > Select <i>IGES</i> > click <i>Options</i> > Select <i>Manifold
       Solid (type - 186)</i> in IGES solid / surface entities > Select <i>B - Splines (Entity type - 126)</i> >
-      Check <i>Export Sketch entities</i> > press <i>OK</i> > <i>Save</i>
+        Check <i>Export Sketch entities</i> > press <i>OK</i> > <i>Save</i></b>
       <br>
       <br>
       <p><b><i> MATERIAL SELECTION:</i></b>
@@ -138,9 +138,9 @@ Now, to set up a beam element model of a chassis for the simulation in ANSYS 18.
 cross section to the line bodies in Geometry. The systematic approach to set the model up can be referred below:
 <br>
 <br>
-Right click on <i>Geometry Tab</i> > <i>Export</i> > select <i>IGES file</i> > Open <i>Design Modeler</i> >
+<b>Right click on <i>Geometry Tab</i> > <i>Export</i> > select <i>IGES file</i> > Open <i>Design Modeler</i> >
 <i>uncheck Solid bodies and Surface bodies</i> in details of import > check <i>line bodies</i> >
-click <i>Generate</i>
+  click <i>Generate</i></b>
 <br>
 <br>
 But before importing line sketch, we must create our material. Once it is done, the file can be imported in Design Modeler. 
@@ -278,12 +278,71 @@ is of utmost importance.
         <br>
 <img src="./images/asmitjainP5_17.PNG" alt="FSAE" class="center">
 <br>  
+        
+      <br>
+      <br>
+      <p><b><i> RELATED WORK:</i></b>
+      <br>
+      To improve the overall design, we need to perform some additional tasks by scrutinizing the sections experiencing 
+        high stress and deformation. One of the approaches could be submodeling.
         <br>
         <br>
-      
-      
-      
-      
+        <i>Submodeling:</i> In practical application, it gets impossible to mesh and analyse complex models due to limited time and 
+        computing capacity. This problem can be accomplished with a process called submodeling in ANSYS Workbench. This tool could
+        be useful to get accurate results of some critical part affected by stress and deformation without running the whole model.
+        It utilizes two different models. The first one is a global model (coarse model) representing the entire structure with some 
+        reasonable meshing. The local model, which is known as sub-model, includes the critical area of our interest with appropriate 
+        mesh density which might not be possible in the full model. Different types of submodeling options are available in ANSYS. 
+        As this project has a beam model, we will focus on Beam to Solid submodeling. Here the global model is entirely a beam element
+        model while the local model would be a solid model. In the figure below, we can see a section of global model which we would like
+        to study. A global model in the figure shows some of the analysed parts of our interest. We will consider a vertical tube 
+        section where two pipes are making a V shape joint. The max deformation of that area was found to be 0.33346 mm which can 
+        be seen in Figure 8. Now, to study the same area with some fine mesh to get the accurate results, we need to create a solid
+        sub-model. For better visualization, we can see sub-model part in figure below. This submodeling interpolates the boundary 
+        conditions and deformation from the global model to the sub-model “cut boundaries” and solves for local stress states in
+        that region.
+      <br>
+<img src="./images/asmitjainP5_18.PNG" alt="FSAE" class="center">
+<br>  
+      br>
+<img src="./images/asmitjainP5_19.PNG" alt="FSAE" class="center">
+<br>  
+        <br>
+        After the sub-model is ready, we need to make a new static structural analysis which will perform the analysis on the sub-model.
+        The important step here is to link the solutions of global model by the setup of sub-model static structural. Once the setup 
+        is ready, we can import all the cut boundary condition from the global model. After solving that model, the max. total 
+        deformation was calculated equal to 0.33509 mm which is similar to the global one with some more accuracy. The result
+        can be seen in Figure 10. This study focuses on sub modelling a specific part. It can be performed on any part in the 
+        same manner.
+        <br>
+<img src="./images/asmitjainP5_20.PNG" alt="FSAE" class="center">
+<br>  
+      br>
+<img src="./images/asmitjainP5_21.PNG" alt="FSAE" class="center">
+<br>  
+        <br>
+        
+        <br>
+        <i>Optimization:</i> After scrutinizing all the results of analysis, we found that the frame is slightly overdesigned. 
+        Due to this, the weight of the frame became large which is not acceptable for the formula style vehicle. In this section, 
+        we will see how we can optimize the design of the vehicle without compromising with the load bearing capacity. The best
+        approach for this is to be to look at the non-critical regions which are not much affected much after the forces are applied. 
+        By checking the safety factor for that section, we can remove the unnecessary tubes and can simplify the design. If the removal 
+        of parts is not possible, we can try assign different material and cross section to the tubes.
+        <br>
+        <br>
+        For the current chassis, we tried making some design modifications in the front and side sections. For the sections having some safe 
+        regions, circular tubes having more thickness were replaced by the thin pipes. By doing several iterations, we were able to 
+        achieve the weight reduction of 6 kg. This design can be validated by the applying the same amount of forces and checking the 
+        stress values and safety factor. Apart from the weight reduction, we can also modify some regions to provide proper 
+        triangulations of frames. The effectiveness of a space frame depends on its triangulation. As the size of the frame increase, 
+        the space in between also increases which results in a decrease in structural rigidity of the frame. If we add a diagonal in 
+        the orientation shown below, it increases the overall stiffness of the structure. This diagonal member now acts in tension as
+        the forces induced are trying to pull the diagonal from each end. The stiffness of this member acting in tension is higher 
+        than the compared to the stiffness of the sides of the rectangular structure in bending. All the results of optimization can
+        be seen below.
+        
+        
       </p>
       </div>
 
