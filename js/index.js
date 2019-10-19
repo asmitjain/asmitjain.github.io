@@ -19,7 +19,7 @@ function writeText() {
     loop: true
   });
 
-  typewriter.typeString('MECHANICAL DESIGN')
+  typewriter.typeString('MECHANICAL DESIGNING')
     .pauseFor(3000)
     .deleteAll(5)
     .typeString('PROTOTYPING')
@@ -34,7 +34,7 @@ function writeText() {
     .typeString('QUALITY CONTROL')
     .pauseFor(3000)
     .deleteAll(5)
-    .typeString('PROTOTYPING')
+    .typeString('NEW PRODUCT/ PROCESS DEVELOPMENT')
     .pauseFor(3000)
     .deleteAll(5)
     .typeString('PLC & HMI/SCADA')
