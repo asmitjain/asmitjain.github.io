@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Asmit Jain's Other Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <script src="./js/index.js"></script>
+  <!-- Sticky Header BEGINS -->
+  <div id="sticky-header">
+    <div class="top-navigation">
+      <span><a href="index.html">ASMIT JAIN</a></span>
+      <span><a href="index.html#project-design">PROJECTS</a></span>
+      <span><a href="#workexp-design">WORK EXPERIENCE</a></span>
+      <span><a href="index.html#about">ABOUT</a></span>
+      <span><a href="https://drive.google.com/file/d/1mKp8SMaigExeC5JSFWjSTU_Aj5dEMAst/view" target="_blank">RESUME/CV</a></span>
+     </div>
+  </div>
+  <!-- Sticky Header ENDS -->
+  
+  
+  <!-- Other Projects Section BEGINS -->
+    <div class="project-design" id="project-design">
+      <h2><span class="underline-magical-sub-header">Other Projects</span></h2>
+        <div class="project-grid">
+        <br>
+        <br>
+      <h2> List of other projects: </h2>
+    <br>
+    <br>
+    <img src="./images/asmitjainP8_1.PNG" alt="BAJA" class="center">
+        <br>
+      <p><b><i> Fault detection for metal etch process data using Machine Learning in MATLAB:</i></b>
+        <br>
+        • Aimed to develop a preventive approach using Machine Learning for manufacturing industries.
+        <br>
+        • Performed Multiway Principal Component Analysis on data for control monitoring using MATLAB.
+        <br>
+• Evaluated the model by performing k-fold cross-validation and using statistical methods to measure accuracy.
+        <br>
+        <br>
+<p><b><i> Design of a Multivariable system using QFT control design toolbox in MATLAB:</i></b>
+        <br>
+        This was based on the computer-based design methodologies for the synthesis of multivariable feedback control system. 
+        It was the first attempt to learn a new designing toolbox in MATLAB known as Quantitative Feedback Theory. QFT toolbox 
+        is used to design a multivariable control system, which has more than one input and output. Any disturbances in the system 
+        can greatly affect the results. We were presented with an uncertain plant family with some output disturbances. I designed 
+        a controller and a prefilter such that the closed loop system achieves the stability. This was done by loop shaping the 
+        components by plotting templates & margin bounds using toolbox for meeting the margin and tracking specifications. I also 
+        made an attempt to tune the slightly over designed system w/o affecting the performance of the MIMO systems.
+        <br>
+        <br>
+        <p><b><i> Design & Analysis of a Passive Suspension system using MATLAB and SIMULINK:</i></b>
+        <br>
+        Designing of an automotive suspension is an interesting and challenging task. The system must be designed in a way 
+        to ensure minimum transmission of road shocks and always maintain a certain level of passenger comfort. Road excitations
+        in the form of bumps or holes produce oscillatory motion in the spring-damper systems, which are the type of suspension
+        taken into consideration in this project. This oscillatory motion can lead to passenger discomfort if not under a certain
+        limit.
+<br>
+<br>
+This project focuses on developing mathematical models for the analysis of the system response under different loading conditions. 
+The first model considered is the classic Quarter car model widely used for ride and handling analysis. Further Half car models for 
+simulating pitching and rolling motion of the vehicle are developed. All mathematical models are developed using state space
+representation and thus result in differential equations governing the motion of the spring and damper systems. These differential 
+equations were solved using MATLAB and Simulink and the results were analysed under the context of passenger comfort.
+        <br>
+        <br>
+        <p><b><i> Designing of different sub-systems of an All-Terrain Vehicle:</i></b>
+        <br>
+        This project presents a detailed research into the designing of an All-Terrain Vehicle (ATV). ATVs are basically
+        compact and open motor vehicles fitted with large treaded-tires, used primarily for off-road expeditions or for adventure 
+        rides on rough terrain. A literature review has been done of the research work that has been done nationally and 
+        internationally in the sphere of ATV design and of the underlying subsystems.
+<br>
+<br>
+Based on our experience of successfully designing and manufacturing an All Terrain Vehicle for BAJA SAE student design 
+competitions, we presented the intended design targets for an ATV's systems along with the structural or dynamic analysis 
+to be performed on them.
+<br>
+<br>
+<br>
+      <br>
+ This site is under construction! Stay tuned for more updates. In the meantime, enjoy some pictures posted below.
+    
+       
+        <br>
+        <br>
+                    
+      </p>
+      </div>
+
+      
+   <!-- Other Projects Section ENDS -->
+      
+<!-- External links Section BEGINS -->
+  <div class="footer">
+    <span><a href="https://github.com/asmitjain" target="_blank"><img src="./images/social/github.svg" alt="Link to Github Profile"></a></span>
+    <span><a href="https://www.linkedin.com/in/thisisasmit" target="_blank"><img src="./images/social/linkedin.svg" alt="Link to Linkedin Profile"></a></span>
+    <span><a href="https://twitter.com/thisisasmit" target="_blank"><img src="./images/social/twitter.svg" alt="Link to Twitter Profile"></a></span>
+  </div>
+  <!-- External links Section ENDS -->
+
+</body>
+
+</HTML>
