@@ -40,10 +40,14 @@
       <p><b><i> MOTIVATIOIN:</i></b>
         <br>
         I was always inclined towards advanced manufacturing techniques and industrial automation. But there were very few courses
-        offered in my engineering studies which focused on developing practical skills. There are rarely any courses in universities 
-        which could expose students to gain hands-on PLC programming. So, I decided to develop my PLC programming skills by doing 
-        online courses with my masters studies. This was a major step towards augmenting skills on controlling machines, interacting
-        with PLCs and programming equipment based on the automation requirements.
+        offered in my engineering studies that focused on developing practical skills. There are rarely any courses in universities 
+        which could expose students to gain hands-on PLC programming. 
+        <br>
+        <br>
+        So, I decided to develop my PLC programming skills on my own by doing online courses with my master of science studies. 
+        I spent my vacation time to build awesome automation projects by implementing my knowledge and learnings acquired during 
+        the courses. This was a crucial step towards augmenting skills in controlling machines, interacting with PLCs and programming equipment 
+        based on the automation requirements/ applications.
         
         
             
@@ -52,18 +56,18 @@
         <br>
       <p><b><i> SOFTWARE USED:</i></b>
         <br>    
-        I used two softwares to write complex PLC pragrams.
+        I used two advanced softwares to write complex PLC pragrams.
         <br>
         1. Allen Bradley Rockwell Automation RX Logix 500 programming package
         <br>
-        2. Siemens TIA Portal Step 7 WinCC PLC HMI
+        2. Siemens TIA Portal Step 7 WinCC PLC HMI package
         
         <br>
         <br>
       <p><b><i> PROGRAMMING LANGUAGES:</i></b>
         <br>    
         
-        I got an opportunity to learn PLC using all of the 5 IEC languages.
+        I got an opportunity to learn PLC by incorporating all of the 5 IEC languages.
         <br>
         1. LAD: Ladder Logic
         <br>
@@ -96,7 +100,6 @@
         I coded multiple PLC programs to solve industrial challenges and automate processes for enhancing productivity using 
         RSLogix & Siemens. The applications include: 
         <br>
-        <br>
         1. Digital Control Logic for maintaining the pressure in a receiver on a compressor application.
         <br>
         2. Digital Filling station for a conveyor belt carrying boxes with colored labels.
@@ -117,16 +120,16 @@
         <br>
         10. Pump Protection with a flow switch and a pressure sensor using alarms and notifications.
         <br>
-        11. PLC programming for Hydroelectric Power Plant in Siemens TIA Portal V15 with PLCSIM
+        11. PLC programming for Hydroelectric Power Plant in Siemens TIA Portal V15 with PLCSIM.
         <br>
         <br>
-        Please feel free to contact me if you would like to see the project files. Just to give you an idea how it works, 
+        Please feel free to contact me if you would like to see the project files. Just to give you an idea of how it works, 
         I have mentioned a project below in detail. 
         <br>
         <br>
         <br>
         
-       <b> Digital Filling station for a conveyor belt carrying boxes with colored labels </b>
+        <b><c> Digital Filling station for a conveyor belt carrying boxes with colored labels </c></b>
        <br>
        <br>
         <u> Process:</u>
@@ -137,19 +140,26 @@
         labeled boxes get filled with pecans and blue labels are for walnuts. A level sensor tells us when the box
         is full and ready to send along.
         <br>
+        <br>
         <img src="./images/asmitjainP3_1.PNG" alt="PLC" class="center">
         <br>
         <br>
         <u> IO / Assigned Memory:</u>
         <br>
         
-        I:0/0 ‐ Proximity switch (closes when a box is near)
-        I:0/1 ‐ Level sensor (closes when the box is full)
-        I:0/2 ‐ Red photo eye (closes when a red label is in front of it)
-        I:0/3 ‐ Blue photo eye (closes when a blue label is in front of it)
-        O:0/0 ‐ Conveyor motor (makes the conveyor move forward when closed)
-        O:0/1 ‐ Walnut hopper (when closed, solenoid opens allowing contents to fall from the hopper)
-        O:0/2 ‐ Pecan hopper (when closed, solenoid opens allowing contents to fall from the hopper)
+        - I:0/0 ‐ Proximity switch (closes when a box is near)
+        <br>
+        - I:0/1 ‐ Level sensor (closes when the box is full)
+        <br>
+        - I:0/2 ‐ Red photo eye (closes when a red label is in front of it)
+        <br>
+        - I:0/3 ‐ Blue photo eye (closes when a blue label is in front of it)
+        <br>
+        - O:0/0 ‐ Conveyor motor (makes the conveyor move forward when closed)
+        <br>
+        - O:0/1 ‐ Walnut hopper (when closed, solenoid opens allowing contents to fall from the hopper)
+        <br>
+        - O:0/2 ‐ Pecan hopper (when closed, solenoid opens allowing contents to fall from the hopper)
         <br>
         <br>
         <u> Test Criteria:</u>
@@ -165,6 +175,8 @@
         Fourth, leave the proximity switch closed and force the red photo eye off and the blue photo eye on.
         The conveyor motor should remain off, but the pecan hopper should deenergize and the walnut hopper
         should energize.
+        <br>
+        <br>
         Next step, force the level sensor on. The hoppers should both deenergize and the conveyor should start
         back up to move the box forward.
         Finally, force the proximity switch, the level sensor and both photo eyes off. Both hoppers should
@@ -198,8 +210,8 @@
         <br>
         <img src="./images/asmitjainP3_6.PNG" alt="PLC" class="center">
         <br>
-        This ladder will help to determine the cycle based on the operations. It can tell the machine to bring a box, fill the box and unload
-        the station after filling. It will also tell if the box is in between any of the above mentioned cycles.
+        This ladder will help to determine the cycle based on the operations. It can order the machine to bring a box, fill the box and 
+        unload the station after filling it with pecan/walnut. It will also track if the box is in between any of the above mentioned cycles.
         <br>
         <br>
       
