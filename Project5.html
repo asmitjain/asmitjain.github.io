@@ -44,7 +44,10 @@
       A chassis is considered as a mainstay of a vehicle. It provides strength to support all the sub-systems and payload 
       placed upon them along with the driver’s safety. The biggest challenge faced by automobile designers is to make an 
       aesthetic chassis design with maximum performance and material utilization. But the process gets highly complicated 
-      when all the components are considered together to perform a crucial function. This project highlights the importance 
+      when all the components are considered together to perform a crucial function. 
+        <br>
+        <br>
+        This project highlights the importance 
       of modelling and simulation methods to ensure a safe chassis design in a crash test scenario. The first phase of this 
       project concentrates on methodologies used for modelling a chassis. This section will introduce techniques to represent 
       a complex geometry model using Finite Element Methods. In the latter section, we will explore ways to analyse the model 
@@ -56,6 +59,7 @@
       <br>
       <br>
       <p><b><i> MATERIALS AND METHODS:</i></b>
+        <br>
         <br>
       <u><b>Design Methodology:</b></u> Based on the finite element analysis, there are three ways to represent a model based on the its complexity. 
       We always look for the one which are fast in computation and gives the accurate results. There are three classical ways by which
@@ -82,7 +86,7 @@
         Check <i>Export Sketch entities</i> > press <i>OK</i> > <i>Save</i></b>
       <br>
       <br>
-      <p><b><i> MATERIAL SELECTION:</i></b>
+      <u><b> Material Selection:</u></b>
         <br>
       After saving the line sketch in IGES format, the systematic approach would be to choose a proper material. The chassis undergoes
       various kinds of forces during the dynamic event. To stay intact without yielding, material plays a crucial role.
@@ -110,11 +114,12 @@ description based on their chemical, physical and mechanical properties can be s
       section round tubes. A graphical representation can be seen in below for better visualization. Round tubes 
       of 1.0 in x 0.095 in for Main and Front Hoops (Red), 1.0 in x 0.065 in for Base frame, Side members, Front and Rear Bulk head 
       (Blue). For all the bracing support members, we have considered 1.0 in x 0.047 in. (Grey)
+        <br>
       <br>
       <img src="./images/asmitjainP5_4.PNG" alt="FSAE" class="center">
       <br>
       <br>
-      <p><b><i> SIMULATION METHODOLOGY:</i></b>
+      <u><b> Simulation Methodology:</u></b>
       <br>
       After the material selection, we are ready to perform different types of static on our model in ANSYS Workbench 18.2. 
       But before moving further, we should understand some basics of Finite Element formulations/ methods.
@@ -184,7 +189,7 @@ model would look similar to the figure below after following all the steps.
       <img src="./images/asmitjainP5_8.png" alt="FSAE" class="center">
       <br>
       <br>
-      <p><b><i> APPROACH:</i></b>
+      <u><b> Approach:</u></b>
       <br>
       During the dynamic state, the chassis experiences a lot of twisting, vibrations, shock, buckling and other variety of
       stresses due to loads, forces, weight transfer etc. To overcome this, we can perform two types of analysis, i.e.; static 
@@ -209,6 +214,7 @@ all those results, we would be able to see the joints which are not connected. W
 can connect them with the help of “connect” tool in ANSYS 18.2. This free run is a basic requirement before proceeding with static
 and dynamic analysis. If the geometry is not properly corrected, we will not get exact results.
 <br>
+        <br>
 <u>2. Front Impact Analysis:</u> Once all the connections are made, the load will be calculated based on the weight of the vehicle 
 and the maximum velocity that it can achieve. A complete guide for calculations is mentioned below. Based
 on these calculation, the load will be applied on the front most support members of the frame and the subsequent deflection and
@@ -220,17 +226,18 @@ frame will be retested until the targets are met.
 <img src="./images/asmitjainP5_9.PNG" alt="FSAE" class="center">
 <br>
 <br>
-<u>3. Rear impact test:</u> This test is similar to the front impact test, just that it will be subjecting the rear most members 
+<u>3. Rear Impact Analysis:</u> This test is similar to the front impact test, just that it will be subjecting the rear most members 
 of the frame. Here too the deflection and stress values must fall under a specified level to pass muster. Especially in this test 
 since the rear members directly protect the most critical components of the vehicle the values must adhere to a strict limit.
 <br>
-<u>4. Side impact test:</u> In this test the vehicle will be tested for load bearing capacities in case of a sideways impact. Again,
+        <br>
+<u>4. Side Impact Analysis:</u> In this test the vehicle will be tested for load bearing capacities in case of a sideways impact. Again,
 this test is like the frontal or rear impact tests in methodology and intent. The frame will be subjected to a load on the side impact 
 members and the consequent deflections and stresses will be observed. As the side members of a frame is close to the driver, this test 
 is of utmost importance.
 <br>
 <br>
-        <u>Modal analysis:</u> This is the second modal analysis of this study. Vehicles will use Compressed Air shocks and is also 
+        <u>5. Modal Analysis:</u> This is the second modal analysis of this study. Vehicles will use Compressed Air shocks and is also 
         expected to face some rough terrains; thus, the vehicle frame is expected to be experience a lot of vibrations. These vibrations
         can be varying in amplitude and frequency. Thus, it is important to check the dynamic response of the frame design or the
         material or the weld used to the ensuing vibration induced disturbances. Also, since the frame will be covered with body 
@@ -238,13 +245,13 @@ is of utmost importance.
         <br>
         <br>
         
-        <u>Bump analysis:</u> This type of analysis is usually not experienced by a racing car, but it is worth exploring the stress 
+        <u>6. Bump Analysis:</u> This type of analysis is usually not experienced by a racing car, but it is worth exploring the stress 
         and deformation during an extreme condition. Whenever a car passes over a bump, it is affected by an abrupt upward force in 
         the front section while the rear part remains unaffected.
         <br>
         <br>
         
-<u>Torsional analysis:</u> This is one among the many basic loads that any vehicle is subjected to. This analysis become even more 
+<u>7. Torsional Analysis:</u> This is one among the many basic loads that any vehicle is subjected to. This analysis become even more 
   important in the case of our vehicle since the turning of a car at high speed or undulating road surface compounds the situations
   leading to torsional loads being applied on the vehicle body and such situations arise much more often. Thus, the torsional analysis 
   of the frame is very important. It calculates the deflection and the stresses induced in the frame due to torsional loads. For this
@@ -253,6 +260,7 @@ is of utmost importance.
       <br>
       <p><b><i> RESULTS:</i></b>
       <br>
+        <br>
       In this section, we will see the max. combined stress and total deformation results in tabular form. The graphical 
       representation for every analysis can also be seen below.
       <br>
@@ -288,14 +296,17 @@ is of utmost importance.
         high stress and deformation. One of the approaches could be submodeling.
         <br>
         <br>
-        <i>Submodeling:</i> In practical application, it gets impossible to mesh and analyse complex models due to limited time and 
+        <b><i>Submodeling:</i></b> In practical application, it gets impossible to mesh and analyse complex models due to limited time and 
         computing capacity. This problem can be accomplished with a process called submodeling in ANSYS Workbench. This tool could
         be useful to get accurate results of some critical part affected by stress and deformation without running the whole model.
         It utilizes two different models. The first one is a global model (coarse model) representing the entire structure with some 
         reasonable meshing. The local model, which is known as sub-model, includes the critical area of our interest with appropriate 
         mesh density which might not be possible in the full model. Different types of submodeling options are available in ANSYS. 
         As this project has a beam model, we will focus on Beam to Solid submodeling. Here the global model is entirely a beam element
-        model while the local model would be a solid model. In the figure below, we can see a section of global model which we would like
+        model while the local model would be a solid model. 
+        <br>
+        <br>
+        In the figure below, we can see a section of global model which we would like
         to study. A global model in the figure shows some of the analysed parts of our interest. We will consider a vertical tube 
         section where two pipes are making a V shape joint. The max deformation of that area was found to be 0.33346 mm which can 
         be seen in Figure 8. Now, to study the same area with some fine mesh to get the accurate results, we need to create a solid
@@ -303,9 +314,10 @@ is of utmost importance.
         conditions and deformation from the global model to the sub-model “cut boundaries” and solves for local stress states in
         that region.
       <br>
+        <br>
 <img src="./images/asmitjainP5_18.png" alt="FSAE" class="center">
 <br>  
-      <br>
+     
 <img src="./images/asmitjainP5_19.png" alt="FSAE" class="center">
 <br>  
         <br>
@@ -316,15 +328,15 @@ is of utmost importance.
         can be seen in Figure 10. This study focuses on sub modelling a specific part. It can be performed on any part in the 
         same manner.
         <br>
+        <br>
 <img src="./images/asmitjainP5_20.png" alt="FSAE" class="center">
 <br>  
-      <br>
-<img src="./images/asmitjainP5_21.png" alt="FSAE" class="center">
+      <img src="./images/asmitjainP5_21.png" alt="FSAE" class="center">
 <br>  
         <br>
         
         <br>
-        <i>Optimization:</i> After scrutinizing all the results of analysis, we found that the frame is slightly overdesigned. 
+        <b><i>Optimization:</i></b> After scrutinizing all the results of analysis, we found that the frame is slightly overdesigned. 
         Due to this, the weight of the frame became large which is not acceptable for the formula style vehicle. In this section, 
         we will see how we can optimize the design of the vehicle without compromising with the load bearing capacity. The best
         approach for this is to be to look at the non-critical regions which are not much affected much after the forces are applied. 
@@ -360,7 +372,7 @@ is of utmost importance.
         of achieving ride comfort, handling and safety, may direct some future researches in different regimes. A few among them 
         are listed below:
         <br>
-        
+        <br>
 1. As all the simulations presented in this report were based on the beam elements. Now we could explore the shell and solid elements 
         models to perform the dynamic analysis using Explicit Dynamics.
         <br>
