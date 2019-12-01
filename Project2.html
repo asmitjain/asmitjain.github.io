@@ -20,7 +20,7 @@
     <div class="top-navigation">
       <span><a href="index.html">ASMIT JAIN</a></span>
       <span><a href="index.html#project-design">PROJECTS</a></span>
-      <span><a href="#workexp-design">WORK EXPERIENCE</a></span>
+      <span><a href="index.html#workexp-design">WORK EXPERIENCE</a></span>
       <span><a href="index.html#about">ABOUT</a></span>
       <span><a href="https://drive.google.com/file/d/1mKp8SMaigExeC5JSFWjSTU_Aj5dEMAst/view" target="_blank">RESUME/CV</a></span>
      </div>
@@ -42,7 +42,10 @@
         <br>
       In manufacturing, ongoing maintenance of production line machinery and equipment represents a major expense, having a 
       crucial impact on the bottom line of any asset-reliant production operation. For this reason, predictive maintenance has 
-      become an effective solution which can predict the failure. This project proposes Machine Learning algorithms to detect
+      become an effective solution which can predict the failure. 
+      <br>
+        <br>
+      This project proposes Machine Learning algorithms to detect
       fault and tool wear in drill operations. Three different categories of drill bit wear along with a perfect drill bit are 
       investigated. Compared to the conventional fault detection ways, the proposed method is based on the analysing features
       extracted from vibration signals which could help to monitor overall equipment effectiveness for the real industrial applications. A complete workflow from data acquisition to pre-processing to analysis has been presented. Twenty-five different models were trained and tested for assorted feed rates and cutting speeds. Five different AI classifiers have been tested against fault detection. The performance of these algorithms has been scrutinized based on several parameters and has been compared to establish the best among them for the real-world applications. The best model achieves about 90% accuracy in fault classification and detection and relies mainly on features extracted from frequency domain. The experimental results demonstrate the effectiveness of vibration signals and verify the ability of proposed artificial intelligence methods in fault diagnosis.
@@ -53,6 +56,8 @@
         <br>
        To conduct this experiment and measure the vibration signals, we need to follow some procedure. A schematic diagram for the 
        complete setup is shown below.
+        <br>
+        <br>
        <img src="./images/asmitjainP2_1.PNG" alt="Vibration Analysis" class="center">
       <br>
       All the experiments were performed on a 3-Axis CNC EMCO Concept Mill 105 machine. The work piece material used 
@@ -92,7 +97,7 @@
       <br>
       <br>
       
-      <u> A. Data Acquisition System:</u> Data acquisition (DAQ) is the complete process from measuring an electrical or physical 
+      A. <u>Data Acquisition System:</u> Data acquisition (DAQ) is the complete process from measuring an electrical or physical 
       phenomenon such as voltage, current, temperature, pressure, or sound with a computer to convert it some useful information. 
       This system consists of sensors (accelerometer) DAQ measurement hardware, and a computer with programmable software (NI LabVIEW).
       Vibration signals were measured at the sampling rate of 32,768 samples/second for 8 seconds. This indicates that each data set 
@@ -100,10 +105,11 @@
       highest frequency value we will get is half the sampling frequency, which is 16384 Hz in this project. Once the data is saved, 
       we can import the data in MATLAB workspace and can proceed for signal pre-processing.
       <br>
+        <br>
       <img src="./images/asmitjainP2_3.PNG" alt="Vibration Analysis" class="center">
       <br>
       <br>
-      <u>B. Signal Pre-Processing:</u> Before analysing the signals and using the AI algorithms, the best practice is to remove 
+      B. <u>Signal Pre-Processing:</u> Before analysing the signals and using the AI algorithms, the best practice is to remove 
       the unwanted signals/noise from the raw data. A common challenge faced is how to filter noise from underlying signal. A wide 
       variety of filters are available to address noise reduction. The filters can be divided into two categories: High Pass and 
       Low Pass filters. For this study, we used Butterworth lowpass filter with cut-off frequency of 10000 Hz which attenuates the 
@@ -118,7 +124,7 @@
       <img src="./images/asmitjainP2_4.PNG" alt="Vibration Analysis" class="center">
       <br>
       <br>
-      <u>C. Feature Extraction:</u> At this stage, we have raw filtered data which just contains acceleration value. If we try 
+      C. <u>Feature Extraction:</u> At this stage, we have raw filtered data which just contains acceleration value. If we try 
       to analyse this data and apply AI algorithms, it becomes computationally very expensive. This could be overcome by feature 
       extraction. It is a type of dimensionality reduction that efficiently represents interesting parts of a signal as a compact 
       feature vector. This approach is useful when data sizes are large, and a reduced feature representation is required to quickly 
@@ -127,7 +133,7 @@
       <img src="./images/asmitjainP2_5.PNG" alt="Vibration Analysis" class="center">
       <br>
       <br>
-      <u>D. Feature Selection:</u> Once the features are extracted, we will get a matrix of 60 x 21 for each machine state, where 
+      D. <u>Feature Selection:</u> Once the features are extracted, we will get a matrix of 60 x 21 for each machine state, where 
       60 represents the data measured for different cutting parameters and 21 represents the total extracted features.
       After feature extraction, feature selection methods play a crucial role. It aids in to create an accurate predictive AI model. 
       They help us by choosing features that will give as good or better accuracy whilst requiring less data. Feature selection methods 
@@ -150,7 +156,7 @@
       of each feature on the AI algorithms accuracy, the number of features were varied from 1 to 21.
       <br>
       <br>
-      <u> E. Classifiers - Training and Testing:</u> Fundamentally, there are two types of model; Classification model used for 
+      E. <u>Classifiers - Training and Testing:</u> Fundamentally, there are two types of model; Classification model used for 
       predicting the label and Regression model for predicting the quantity. As this data contains the label already and is not 
       continuous, we will be using Classification Prediction model. This type of model has two main application in this study. 
       Firstly, to differentiate the faulty drill bit out of the perfect drill bit data and secondly, classify the drill bit data 
@@ -193,7 +199,7 @@
      <br>
     There is one important thing which we should consider while training the models. Sometimes, a model trains itself so well with 
     the training data that it could cause Overfitting. Overfitting happens when a model learns the detail and noise in the training
-    data to the extent that it negatively impacts the performance of the model on new data. [9] To avoid the overfitting problem, we 
+    data to the extent that it negatively impacts the performance of the model on new data. To avoid the overfitting problem, we 
     can use Cross Validation on data. Cross Validation helps to split data into k folds. The models are tested on the (k-1) fold and 
     the last fold is used for testing. This is repeated k times which gives us the flexibility to train and test our model with each
     data points. In this study, 5-fold cross validation was applied.
@@ -209,6 +215,7 @@
      penetration state. In study state also, we can see that ANN and SVM are the best classifiers with highest accuracy. On comparing
      the results of both the states, we can conclude that all the classifiers have a bit difficulty in fault detection.
      <br>
+      <br>
       <img src="./images/asmitjainP2_7.PNG" alt="Vibration Analysis" class="center">
       <br>
       <br>
@@ -221,13 +228,13 @@
       <br>
       <img src="./images/asmitjainP2_8.PNG" alt="Vibration Analysis" class="center">
       <br>
-      <br>
       Now, the biggest question arises at this point is that how these accuracies can be calculates. There are several ways to do it. 
       For this study, confusion matrix was form based on the predicted labels. The diagonal elements (green) represents the correctly 
       classified data while the off-diagonal elements(red) represents incorrect predicted labels. If we see the above-mentioned figure, 
       one of the first group members was detected as the second group member. This misclassified data is represented by element(1,2). 
       The overall accuracy of this classifier is the sum of diagonal elements which accounts for 83.3% accuracy. Two MATLAB inbuilt 
       functions ‘predict’ and ‘confusionmat’ were used.
+      <br>
       <br>
       <img src="./images/asmitjainP2_9.PNG" alt="Vibration Analysis" class="center">
       <br>
