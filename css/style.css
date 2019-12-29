@@ -176,7 +176,7 @@ body {
   /*padding-top: 8px; */
   padding-bottom: 12px;
   font-family: 'Work Sans Light', sans-serif;
-  font-size: 42px;
+  font-size: 38px;
   color: #17223b;
   text-align: left;
   /*margin-bottom: 24px;*/
@@ -257,7 +257,7 @@ body {
   padding-top: 16px;
   padding-bottom: 12px;
   padding-right: 8px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Inria Serif Regular', sans-serif;
   font-size: 22px;
   line-height: 1.5;
   color: #424242;
@@ -294,7 +294,7 @@ body {
   /*padding-top: 8px; */
   padding-bottom: 12px;
   font-family: 'Work Sans Light', sans-serif;
-  font-size: 42px;
+  font-size: 38px;
   color: #17223b;
   text-align: left;
   /*margin-bottom: 24px;*/
@@ -329,7 +329,7 @@ body {
   /*padding-top: 8px; */
   padding-bottom: 12px;
   font-family: 'Work Sans Light', sans-serif;
-  font-size: 42px;
+  font-size: 38px;
   color: #17223b;
   text-align: left;
   /*margin-bottom: 24px;*/
@@ -369,7 +369,7 @@ body {
   padding-top: 8px;
   padding-bottom: 12px;
   font-family: 'Work Sans Light', sans-serif;
-  font-size: 42px;
+  font-size: 38px;
   color: #17223b;
   text-align: left;
   margin-bottom: 32px;
@@ -537,7 +537,7 @@ body {
     padding-top: 8px;
     padding-bottom: 16px;
     padding-right: 12px;
-    font-family: 'Open Sans Medium', sans-serif;
+    font-family: 'Inria Serif Regular', sans-serif;
     margin: 0px;
     font-size: 20px;
     line-height: 1.3;
@@ -618,7 +618,7 @@ body {
     padding-top: 16px;
     padding-bottom: 12px;
     padding-right: 8px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Inria Serif Regular', sans-serif;
     font-size: 24px;
     line-height: 1.5;
     color: #424242;
