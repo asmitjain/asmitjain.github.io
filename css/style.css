@@ -188,7 +188,7 @@ body {
   color: #373737;
   text-align: left;
   text-overflow: ellipsis;
-  line-height: 1.8;
+  line-height: 1.5;
   margin-bottom: 32px;
 }
 
@@ -302,7 +302,7 @@ body {
   color: #373737;
   text-align: left;
   text-overflow: ellipsis;
-  line-height: 1.8;
+  line-height: 1.5;
   margin-bottom: 32px;
 }
 .about {
@@ -316,7 +316,7 @@ body {
 .about-grid {
   display: block;
   width: 100%;
-  max-width: 72%;
+  max-width: 100%;
 }
 
 .about h2 {
@@ -371,7 +371,7 @@ body {
   text-align: left;
   text-align: justify;
   text-justify: inter-word;
-  line-height: 2.0;
+  line-height: 1.5;
 }
 .about b {
   margin: 0px;
@@ -380,7 +380,7 @@ body {
   font-size: 20px;
   color: #d32f2f;
   text-align: left;
-  line-height: 2.0;
+  line-height: 1.5;
   background-color: #f0f0f0;
   border-radius: 4px;
 }
@@ -536,7 +536,7 @@ body {
     color: #373737;
     text-align: left;
     text-overflow: ellipsis;
-    line-height: 1.8;
+    line-height: 1.5;
     margin-bottom: 32px;
   }
 
@@ -599,7 +599,7 @@ body {
     text-align: justify;
     text-justify: inter-word;
     /*text-overflow: ellipsis;*/
-    line-height: 1.8;
+    line-height: 1.5;
     margin-bottom: 32px;
   }
 }
