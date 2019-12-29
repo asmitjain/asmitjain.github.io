@@ -163,9 +163,7 @@ body {
   margin: auto;
   max-width: 100%;
   margin-left: 40px;
-  
-  margin-right: 40px;
-  
+  margin-right: 50px;
   padding-top: 120px;
   margin-bottom: 48px;
   margin-top: 72px;*/
@@ -279,7 +277,7 @@ body {
   margin: auto;
   max-width: 100%;
   margin-left: 40px;
-  /*margin-right: 40px;*/
+  margin-right: 50px;
   padding-top: 120px;
   margin-bottom: 48px;
   margin-top: 72px;*/
@@ -311,7 +309,7 @@ body {
   margin: auto;
   max-width: 100%;
   margin-left: 40px;
-  margin-right: 40px;
+  margin-right: 50px;
   padding-top: 120px;
 }
 
@@ -371,6 +369,8 @@ body {
   font-size: 20px;
   color: #17223b;
   text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
   line-height: 2.0;
 }
 .about b {
@@ -464,8 +464,10 @@ body {
     font-family: 'Zilla Slab', serif;
     font-size: 22px;
     color: #17223b;
-    text-align: left;
-    text-overflow: ellipsis;
+    /*text-align: left;*/
+    text-align: justify;
+    text-justify: inter-word;
+    /*text-overflow: ellipsis;*/
     line-height: 1.5;
   }
 
@@ -593,8 +595,10 @@ body {
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
     color: #373737;
-    text-align: left;
-    text-overflow: ellipsis;
+    /*text-align: left;*/
+    text-align: justify;
+    text-justify: inter-word;
+    /*text-overflow: ellipsis;*/
     line-height: 1.8;
     margin-bottom: 32px;
   }
