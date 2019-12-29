@@ -167,8 +167,7 @@ body {
   margin-left: 40px;
   margin-right: 120px;
   padding-top: 120px;
-  text-align: justify;
-  text-justify: inter-word;
+  
   margin-bottom: 48px;
   margin-top: 72px;*/
 }
@@ -177,8 +176,8 @@ body {
 .project-design h2 {
   margin: 0px;
   /*padding-top: 8px; */
-  font-family: 'Work Sans Semi-Bold', sans-serif;
-  font-size: 32px;
+  font-family: 'Work Sans Light', sans-serif;
+  font-size: 50px;
   color: #17223b;
   text-align: left;
   /*margin-bottom: 24px;*/
@@ -190,8 +189,10 @@ body {
   font-family: 'Zilla Slab', sans-serif;
   font-size: 24px;
   color: #17223b;
-  text-align: left;
-  text-overflow: ellipsis;
+  /*text-align: left;*/
+  text-align: justify;
+  text-justify: inter-word;
+  /*text-overflow: ellipsis;*/
   line-height: 1.5;
   margin-bottom: 32px;
 }
@@ -282,8 +283,7 @@ body {
   max-width: 100%;
   margin-left: 40px;
   margin-right: 120px;
-  text-align: justify;
-  text-justify: inter-word;
+  
   padding-top: 120px;
   margin-bottom: 48px;
   margin-top: 72px;*/
@@ -293,8 +293,8 @@ body {
 .workexp-design h2 {
   margin: 0px;
   /*padding-top: 8px; */
-  font-family: 'Work Sans Semi-Bold', sans-serif;
-  font-size: 32px;
+  font-family: 'Work Sans Light', sans-serif;
+  font-size: 50px;
   color: #17223b;
   text-align: left;
   /*margin-bottom: 24px;*/
@@ -306,8 +306,10 @@ body {
   font-family: 'Zilla Slab', sans-serif;
   font-size: 24px;
   color: #17223b;
-  text-align: left;
-  text-overflow: ellipsis;
+  /*text-align: left;*/
+  text-align: justify;
+  text-justify: inter-word;
+  /*text-overflow: ellipsis;*/
   line-height: 1.5;
   margin-bottom: 32px;
 }
@@ -328,8 +330,8 @@ body {
 .about h2 {
   margin: 0px;
   padding-top: 8px;
-  font-family: 'Work Sans Semi-Bold', sans-serif;
-  font-size: 32px;
+  font-family: 'Work Sans Light', sans-serif;
+  font-size: 50px;
   color: #17223b;
   text-align: left;
   margin-bottom: 32px;
@@ -374,7 +376,7 @@ body {
   font-family: 'Zilla Slab', sans-serif;
   font-size: 24px;
   color: #17223b;
-  text-align: left;
+  
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.5;
@@ -451,7 +453,7 @@ body {
 
   #personal-tag span{
     font-family: 'Work Sans Bold', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 1.5px;
   }
 
