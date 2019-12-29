@@ -434,7 +434,7 @@ body {
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
   .landing-header {
     margin-left: 24px;
     max-width: 100%;
