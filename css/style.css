@@ -524,6 +524,8 @@ body {
     margin: auto;
     max-width: 90%;
     margin-left: 24px;
+    text-align: justify;
+    text-justify: inter-word;
     padding-top: 100px;
     margin-bottom: 48px;
   }
@@ -535,6 +537,8 @@ body {
     font-size: 20px;
     color: #373737;
     text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
     text-overflow: ellipsis;
     line-height: 1.5;
     margin-bottom: 32px;
