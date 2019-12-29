@@ -150,8 +150,10 @@ body {
   font-weight: 400;
   font-size: 28px;
   color: #17223b;
-  text-align: left;
-  text-overflow: ellipsis;
+  /*text-align: left;*/
+  text-align: justify;
+  text-justify: inter-word;
+  /*text-overflow: ellipsis;*/
   line-height: 1.5;
 }
 
