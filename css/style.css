@@ -97,7 +97,7 @@ body {
 .landing-header {
   max-width: 100%;
   margin-top: 240px;
-  margin-bottom: 150px;
+  margin-bottom: 48px;///////
   margin-left: 40px;
   margin-right: 120px;
 }
@@ -167,7 +167,6 @@ body {
   margin-left: 40px;
   margin-right: 120px;
   padding-top: 120px;
-  
   margin-bottom: 48px;
   margin-top: 72px;*/
 }
@@ -287,7 +286,7 @@ body {
   
   padding-top: 120px;
   margin-bottom: 48px;
-  margin-top: 72px;*/
+  margin-top: 72px;
 }
 
  
@@ -321,6 +320,8 @@ body {
   margin-left: 40px;
   margin-right: 120px;
   padding-top: 120px;
+  margin-bottom: 48px;
+  margin-top: 72px;
 }
 
 .about-grid {
@@ -373,7 +374,7 @@ body {
   box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
   filter: grayscale(0);
 }
-  .about p {
+.about p {
   margin: 0px;
   padding-top: 18px;
   font-family: 'Zilla Slab', sans-serif;
@@ -450,7 +451,7 @@ body {
     margin-left: 24px;
     max-width: 100%;
     margin-top: 160px;
-    margin-bottom: 100px;
+    margin-bottom: 48px;
     margin-right: 24px;
   }
 
@@ -619,6 +620,37 @@ body {
     line-height: 1.5;
     margin-bottom: 32px;
   }
+  
+  .about {
+   margin: auto;
+    max-width: 90%;
+    margin-left: 24px;
+    padding-top: 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 48px;
+}
+
+.about-grid {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.about p {
+  margin: 0px;
+    padding-top: 20px;
+    font-family: 'Zilla Slab', sans-serif;
+    font-size: 24px;
+    color: #17223b;
+    /*text-align: left;*/
+    text-align: justify;
+    text-justify: inter-word;
+    /*text-overflow: ellipsis;*/
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
 }
 
 
