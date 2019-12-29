@@ -167,6 +167,8 @@ body {
   margin-left: 40px;
   margin-right: 120px;
   padding-top: 120px;
+  text-align: justify;
+  text-justify: inter-word;
   margin-bottom: 48px;
   margin-top: 72px;*/
 }
@@ -280,6 +282,8 @@ body {
   max-width: 100%;
   margin-left: 40px;
   margin-right: 120px;
+  text-align: justify;
+  text-justify: inter-word;
   padding-top: 120px;
   margin-bottom: 48px;
   margin-top: 72px;*/
