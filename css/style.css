@@ -176,8 +176,9 @@ body {
 .project-design h2 {
   margin: 0px;
   /*padding-top: 8px; */
+  padding-bottom: 12px;
   font-family: 'Work Sans Light', sans-serif;
-  font-size: 50px;
+  font-size: 42px;
   color: #17223b;
   text-align: left;
   /*margin-bottom: 24px;*/
@@ -293,8 +294,9 @@ body {
 .workexp-design h2 {
   margin: 0px;
   /*padding-top: 8px; */
+  padding-bottom: 12px;
   font-family: 'Work Sans Light', sans-serif;
-  font-size: 50px;
+  font-size: 42px;
   color: #17223b;
   text-align: left;
   /*margin-bottom: 24px;*/
@@ -330,8 +332,9 @@ body {
 .about h2 {
   margin: 0px;
   padding-top: 8px;
+  padding-bottom: 12px;
   font-family: 'Work Sans Light', sans-serif;
-  font-size: 50px;
+  font-size: 42px;
   color: #17223b;
   text-align: left;
   margin-bottom: 32px;
