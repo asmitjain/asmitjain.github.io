@@ -451,7 +451,7 @@ body {
 
   #page-header {
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 148px;
+    font-size: 100px;
     color: #17223b;
     text-align: left;
     text-overflow: ellipsis;
@@ -590,6 +590,8 @@ body {
     max-width: 90%;
     margin-left: 24px;
     padding-top: 100px;
+    text-align: justify;
+    text-justify: inter-word;
     margin-bottom: 48px;
   }
 
