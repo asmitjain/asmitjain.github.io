@@ -434,7 +434,7 @@ body {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
   .landing-header {
     margin-left: 24px;
     max-width: 100%;
@@ -451,7 +451,7 @@ body {
 
   #page-header {
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     color: #17223b;
     text-align: left;
     text-overflow: ellipsis;
