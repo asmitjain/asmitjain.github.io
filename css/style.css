@@ -660,6 +660,29 @@ body {
     margin-bottom: 32px;
   }
   
+  .skills-design {
+    margin: auto;
+    max-width: 90%;
+    margin-left: 24px;
+    padding-top: 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 48px;
+  }
+
+  .skills-design p {
+    margin: 0px;
+    padding-top: 20px;
+    font-family: 'Zilla Slab', sans-serif;
+    font-size: 24px;
+    color: #17223b;
+    /*text-align: left;*/
+    text-align: justify;
+    text-justify: inter-word;
+    /*text-overflow: ellipsis;*/
+    line-height: 1.5;
+    margin-bottom: 32px;
+  }
   .about {
    margin: auto;
     max-width: 90%;
