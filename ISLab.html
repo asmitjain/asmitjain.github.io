@@ -98,6 +98,9 @@ This study will show a complete process from measuring the data using the data a
         This study is based on two different sections. The first section focuses on the measurement of the vibration signals using the DAQ system. And the second section concentrates on analyzing the signals.
           <br>
         <br>
+            <img src="./images/ISpic1.jpg" alt="IS Lab" class="center">
+            <br>
+            <br>
             <b> Measurement: </b> Data acquisition (DAQ) is the process of measuring an electrical or physical phenomenon such as voltage, current, temperature, pressure, or sound with a computer. A DAQ system consists of sensors, DAQ measurement hardware, and a computer with programmable software.
 The measurement of a physical phenomenon, such as the temperature of a room, the intensity of a light source, or the force applied to an object, begins with a sensor. A sensor, also called a transducer, converts a physical phenomenon into a measurable electrical signal. Depending on the type of sensor, its electrical output can be a voltage, current, resistance, or another electrical attribute that varies over time. Some sensors may require additional components and circuitry to properly produce a signal that can accurately and safely be read by a DAQ device. Signals from sensors or the outside world can be noisy or too dangerous to measure directly. Signal conditioning circuitry manipulates a signal into a form that is suitable for input into an ADC. This circuitry can include amplification, attenuation, filtering, and isolation. Some DAQ devices include built-in signal conditioning designed for measuring specific types of sensors. A computer with programmable software controls the operation of the DAQ device and is used for processing, visualizing, and storing measurement data. Different types of computers are used in different types of applications. A desktop may be used in a lab for its processing power, a laptop may be used in the field for its portability, or an industrial computer may be used in a manufacturing plant for its ruggedness. [7]
 Accelerometers are commonly used sensors for shock and vibration measurement. It can be mounted directly on the vibrating structure and proportionally converts mechanical energy to electrical when experiencing acceleration. Acceleration is generally represented with the gravitational constant ‘g’ which equals 9.81 m/s2. There are three main types of accelerometers: (1) Piezoelectric Accelerometer typically use lead Zirconate Titanate (PZT) sensing elements that product electric charge or output under acceleration. (2) Capacitive MEMS Accelerometer which senses a change in electrical capacitance, with respect to acceleration and
@@ -139,26 +142,51 @@ A National Instrument USB 6000 Multifunction I/O data acquisition device was use
             <br><br>
             Once the drilling machine setup is ready, we can start analyzing the vibration signals. As we have already seen in the previous section that the signal conditioner has 4 different channels, we will start with finalizing the channel first. This is done just to avoid any kind of noise due to the internal circuit. In the given figure, we can clearly see the channel 1(green) has some sort of noise which can affect the vibration measurement for the main study and could be misleading. Based on this, we selected channel 2 for all the analysis.
             <br><br>
+            <img src="./images/ISpic2.png" alt="IS Lab" class="center">
+            <br>
+            <br>
             Another crucial step is to measure the vibration of the table on which the machine is mounted. For this study, the machine was kept on a simple work table without any clamps. This could be prone to number of vibrations like floor, building etc. Even walking or closing the door at the time of measurement could affect the reading. In the mentioned figure, third reading (pink) shows the result when the lab’s door was close by lab mate. To avoid this kind of noise, it is always better to mount the machine on optical table.
           <br>
+            <br>
+            <img src="./images/ISpic3.png" alt="IS Lab" class="center">
+            <br>
             <br>
             These are some basic steps which we need to consider for making our setup noise-free. The next step is to decide the best mounting position for the drill machine. This completely depends on the type of analysis you would like to perform. As the initial aim for this study was to detect and classify fault based on the vibration signals, the best position would be in proximity to the work piece. The below results show the data for idle condition at three different positions. Taking the vibration measurement in idle condition depicts the behavior of the machine’s dynamic state. In the time domain plot, maximum amplitude was attained when the accelerometer was mounted on base. As this drill machine was kept without any base clamping, it was able to produce the machine noise. This calls for another experiment which would require the clamping of the base. This is done in the later section.
             <br>
             <br>
+            <img src="./images/ISpic4.PNG" alt="IS Lab" class="center">
+            <br>
+            <br>
+            <img src="./images/ISpic5.png" alt="IS Lab" class="center">
+            <br>
+            
             Another interesting anomaly was observed by doing this experiment. For each trial taken at spindle head and top cover, we were getting the highest peak at 120Hz. This was unusual. After scrutinizing this plot, it was concluded that the effect was due to the magnetic forces. In the United States, the electric supply has a standard voltage of 120V and frequency of 60Hz. As the accelerometer was close to the induction motor, signals were getting affected by the line frequency due to magnetic forces. When we mounted the sensor on the spindle head and top cover, it was close to the induction motor of the machine and was getting influenced by its effect. But it was not observed when the sensor was mounted on base, which is far away from the effect of motor.
             <br><br>
+            <img src="./images/ISpic6.PNG" alt="IS Lab" class="center">
+            <br>
             These experiments at idle states helps us to understand the behavior of the machine. It also aid in comparing the nature of the machine during the operation. One more step is required before proceeding toward the drill operation. We need to see the effect of drill machine at different speeds. As mentioned before, this machine has five speed options. Data was measure on all the speeds at idle state. It was obvious that we will get higher frequency at high speed as the machine will have more vibrations. It can be seen in the figure below. The encircled section shows the frequencies variation at higher rpm. We have successfully completed all the data measurement at steady/idle state. Now, we can proceed towards the penetration state. Again, five different trials were taken at 2100 rpm. The sample time for this study was 20 seconds and a feed of 4mm was fixed. The result of the experiment is attached below. It can be clearly seen that the plot shows different reading for each and every run. This was the major drawback of using a manual drill machine.
             <br><br>
+            <img src="./images/ISpic7.png" alt="IS Lab" class="center">
+            <br>
             Every time when we manually feed the drill on the work piece while performing an experiment, due to the uncontrolled feed by hand, it makes variations. Hence, we would not be able to perform further analysis. For this we would need an automatic machine which would give a controlled feed. Although, we won’t be able to perform analysis for the fault classification and detection, we can detour to explore more. There are several other experiments which are worth performing. In one of the experiments, we observed that there were high amplitude vibrations which were captured by machine base. So we decided to clamp the base and perform the analysis. We have already seen the vibrations it makes; we decided to find the vibration range for the frequencies. The results were very impressive.
             <br><br>
+            <img src="./images/ISpic8.png" alt="IS Lab" class="center">
+            <br>
+            <br>
+            <img src="./images/ISpic9.PNG" alt="IS Lab" class="center">
             In the above figure, there are three different graphs which were taken using NI LabVIEW. Different setups were made to measure the range. The first two graphs were obtained by without clamping and with clamping respectively. For this, accelerometer was mounted on the base. Then, for the third graph, we mounted the sensor on vice jaw. This setup was planned in such a way that the sensor will not be able to capture the vibration directly from the base. In the first two graphs, it shows that highest peak were in the range of 240Hz to 260Hz which was not observed in the third graph.
             <br>
+            <br>
+            <img src="./images/ISpic10.PNG" alt="IS Lab" class="center">
             <br>
             One last thing which we can try is to dampen the vice handle. During the operation, the handle was vibrating a lot which was quite audible too. This is one of the types of the noises. To dampen the noise, we simply taped the handle. We have performed all the analysis on the drill machine. This is not limited to the above mentioned analysis. We can explore more analysis based on one’s interest. Now it is time to switch to another machine for our study. This is called Roll to Roll machine. The purpose of this analysis was different than the drill machine. As this machine is build from scratch in the lab, we needed to find the natural frequency of the overall machine. Another purpose of this study was to dampen the vibration which could affect the print quality.
             <br>
             <br>
+            <img src="./images/ISpic11.PNG" alt="IS Lab" class="center">
             To perform the analysis, different setups were explored. We mounted the accelerometer at three different places which are shown in the figure. To see the impact, the machine structure was hit at three different places with a rubber hammer. A VI was developed on NI LabVIEW to find the natural frequency. All the combination were tried to analyze. But the best result was found on when the accelerometer was mounted at the top left corner of the breadboard. The base of the sensor was parallel to the y axis or to the breadboard. The impact was given at the highest point of the machine so that measurement takes the effect of whole structure. The highest peak was obtained at 10Hz.
             <br><br>
+            <img src="./images/ISpic12.PNG" alt="IS Lab" class="center">
+            <br>
             We avoided all the high frequencies as we approximated the range by observation. All the high frequencies were just considered as noise due to the impact. To cross check the natural frequency, we also plot the time vs amplitude graph in MATLAB. Based on the cycles per second, it was observed the same value i.e.; 10Hz.
             <br><br>
             The second experiment was to install vibration isolators at the base of the granite table. The assembly of these isolators are very simple. It just contains a circular thick rubber sheet with a through hole at the center. A long stud is passed in between to fix it with nuts on to the structure. By installing it at base, the upper structure transfers the vibration to the isolators which try to dampen the overall vibration of the machine. The time domain and frequency domain
@@ -173,7 +201,10 @@ with magnified scale. In this time domain graph, we can
 see that the signals without isolation (orange) takes time
 to dampen and diminish. While the one with isolators
 dampens and diminishes quickly.
+            <img src="./images/ISpic13.PNG" alt="IS Lab" class="center">
             <br><br>
+            <img src="./images/ISpic14.png" alt="IS Lab" class="center">
+            <br>
             The third experiment is worth performing. As we know
 that the accelerometer is
 uniaxial, what could be the
@@ -197,6 +228,7 @@ Almost equal amount of impact was giving during the testing. We saw that sensor 
 not able capture the data.
             <br>
             <br>
+            <img src="./images/ISpic15.PNG" alt="IS Lab" class="center">
             <br>
             <p><b><i>Conclusion:</i></b>
               <br>
