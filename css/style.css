@@ -287,6 +287,7 @@ body {
   width: 50%;
 }
 
+/*
 @import "compass/css3";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
@@ -360,6 +361,7 @@ $brown: rgba(83,70,54,.75);
     background: $brown;
   }
   
+*/
 
 .card-title {
   margin: 0px;
