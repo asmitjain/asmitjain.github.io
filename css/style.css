@@ -286,14 +286,12 @@ body {
   margin-right: auto;
   width: 50%;
 }
-/* */
+/*
 @import "compass/css3";
-
-/* Thanks to dmac37 for this hex technique */
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
 
-/* Variables */
+
 $width: 220px;
 $pink: rgba(230,0,98,.75);
 $green: rgba(169,160,50,.75);
@@ -391,7 +389,7 @@ section {
   p {font-size: .5em; text-transform: lowercase;}
 }
   
-/* */
+ */
 .card-title {
   margin: 0px;
   padding-left: 16px;
