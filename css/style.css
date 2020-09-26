@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  /*background-color: #f5f5f5;*/
-  background-image: url("https://www.shutterstock.com/image-illustration/medical-background-hexagons-geometric-elements-design-1182779950");
+  background-color: #f5f5f5;
+  background-image: url("./images/Website Background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0px;
