@@ -158,6 +158,42 @@ body {
   line-height: 1.5;
 }
 
+.domain-design {
+  margin: auto;
+  max-width: 100%;
+  margin-left: 40px;
+  margin-right: 120px;
+  
+  padding-top: 120px;
+  margin-bottom: 48px;
+  margin-top: 72px;
+}
+
+ 
+.domain-design h2 {
+  margin: 0px;
+  /*padding-top: 8px; */
+  padding-bottom: 12px;
+  font-family: 'Work Sans Light', sans-serif;
+  font-size: 38px;
+  color: #17223b;
+  text-align: left;
+  /*margin-bottom: 24px;*/
+}
+
+.domain-design p {
+  margin: 0px;
+  padding-top: 24px;
+  font-family: 'Zilla Slab', sans-serif;
+  font-size: 24px;
+  color: #17223b;
+  /*text-align: left;*/
+  text-align: justify;
+  text-justify: inter-word;
+  /*text-overflow: ellipsis;*/
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
  
 /* Personal Info on landing Ending */
 .project-design {
