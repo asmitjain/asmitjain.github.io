@@ -194,20 +194,117 @@ body {
   line-height: 1.5;
   margin-bottom: 32px;
 }
-
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Merriweather, Georgia, serif;
+  font-size: 62.5%;
+}
+body {
+  color: hsl(0, 0%, 10%);
+  background-color: hsl(0, 0%, 95%);
+  border-top: 5px solid hsl(220, 50%, 75%);
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 30px;
+  bottom: 0;
+  top: 0;
+}
 .hexagon {
   position: relative;
   display: inline-block;
+  /* left/right margin approx. 25% of .hexagon width + spacing */
   margin: 1px 18px;
-  background-color: hsl(220, 75%, 75%);
+  background-color: hsl(180, 0%, 58%);
+  text-align: center;
+}
+
+.hexagon2 {
+  position: relative;
+  display: inline-block;
+  /* left/right margin approx. 25% of .hexagon width + spacing */
+  margin: 1px 18px;
+  background-color: hsl(180, 0%, 87%);
+  text-align: center;
+}
+
+.hexagon3 {
+  position: relative;
+  display: inline-block;
+  /* left/right margin approx. 25% of .hexagon width + spacing */
+  margin: 1px 18px;
+  background-color: hsl(0, 0%, 95%);
+  text-align: center;
+}
+.hexagon4 {
+  position: relative;
+  display: inline-block;
+  /* left/right margin approx. 25% of .hexagon width + spacing */
+  margin: 1px 18px;
+  background-color: hsla(0, 0%, 0%, 1.0);
   text-align: center;
 }
 .hexagon, .hexagon::before, .hexagon::after {
+  /* easy way: height is width * 1.732
+  actual formula is 2*(width/(2*Math.tan(Math.PI/6)))
+  remove border-radius for sharp corners on hexagons */
   width: 67px;
   height: 116px;
   border-radius: 20%/5%;
 }
+
+.hexagon2, .hexagon2::before, .hexagon2::after {
+  /* easy way: height is width * 1.732
+  actual formula is 2*(width/(2*Math.tan(Math.PI/6)))
+  remove border-radius for sharp corners on hexagons */
+  width: 67px;
+  height: 116px;
+  border-radius: 20%/5%;
+}
+
+.hexagon3, .hexagon3::before, .hexagon3::after {
+  /* easy way: height is width * 1.732
+  actual formula is 2*(width/(2*Math.tan(Math.PI/6)))
+  remove border-radius for sharp corners on hexagons */
+  width: 67px;
+  height: 116px;
+  border-radius: 20%/5%;
+}
+
+.hexagon4, .hexagon4::before, .hexagon4::after {
+  /* easy way: height is width * 1.732
+  actual formula is 2*(width/(2*Math.tan(Math.PI/6)))
+  remove border-radius for sharp corners on hexagons */
+  width: 67px;
+  height: 116px;
+  border-radius: 20%/5%;
+}
+
 .hexagon::before {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(-60deg);
+}
+.hexagon2::before {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(-60deg);
+}
+.hexagon3::before {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(-60deg);
+}
+.hexagon4::before {
   background-color: inherit;
   content: "";
   position: absolute;
@@ -221,12 +318,33 @@ body {
   left: 0;
   transform: rotate(60deg);
 }
+.hexagon2::after {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(60deg);
+}
+.hexagon3::after {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(60deg);
+}
+.hexagon4::after {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(60deg);
+}
 .hexagon:nth-child(even) {
   /* top approx. 50% of .hexagon height + spacing */
   top: 59px;
 }
 .hexagon:hover {
-  background-color: hsla(60, 75%, 75%, 1.0);
+  background-color: hsla(185, 65%, 60%, 1.0);
   cursor: pointer;
   z-index: 105;
 }
@@ -234,7 +352,55 @@ body {
   background-color: hsla(60, 75%, 50%, 1.0);
   z-index: 110;
 }
-
+.hexagon2:nth-child(even) {
+  /* top approx. 50% of .hexagon height + spacing */
+  top: 59px;
+}
+.hexagon2:hover {
+  background-color: hsla(185, 65%, 60%, 1.0);
+  cursor: pointer;
+  z-index: 105;
+}
+.hexagon2:active {
+  background-color: hsla(60, 75%, 50%, 1.0);
+  z-index: 110;
+}
+.hexagon3:nth-child(even) {
+  /* top approx. 50% of .hexagon height + spacing */
+  top: 59px;
+}
+.hexagon3:hover {
+  background-color: hsla(185, 65%, 60%, 1.0);
+  cursor: pointer;
+  z-index: 105;
+}
+.hexagon3:active {
+  background-color: hsla(60, 75%, 50%, 1.0);
+  z-index: 110;
+}
+.hexagon4:nth-child(even) {
+  /* top approx. 50% of .hexagon height + spacing */
+  top: 59px;
+}
+.hexagon4:hover {
+  background-color: hsla(185, 65%, 60%, 1.0);
+  cursor: pointer;
+  z-index: 105;
+}
+.hexagon4:active {
+  background-color: hsla(60, 75%, 50%, 1.0);
+  z-index: 110;
+}
+.hexanone {
+  position: relative;
+  display: inline-block;
+  width: 67px;
+  height: 116px;
+  margin: 1px 18px;
+}
+.hexanone:nth-child(even) {
+  top: 59px;
+}
 .hexagontent {
   position: absolute;
   top: 50%;
@@ -253,7 +419,6 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-
 
 /* Personal Info on landing Ending */
 .project-design {
