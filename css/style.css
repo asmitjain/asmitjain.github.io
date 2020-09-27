@@ -209,8 +209,6 @@ body {
   /* left/right margin approx. 25% of .hexagon width + spacing */
   margin: 1px 18px;
   background-color: hsl(180, 0%, 58%);
-  font-family: 'Bangers', sans-serif;
-  font-size: 50%;
   text-align: center;
 }
 
@@ -220,8 +218,6 @@ body {
   /* left/right margin approx. 25% of .hexagon width + spacing */
   margin: 1px 18px;
   background-color: hsl(180, 0%, 87%);
-  font-family: 'Bangers', sans-serif;
-  font-size: 50%;
   text-align: center;
 }
 
@@ -231,8 +227,6 @@ body {
   /* left/right margin approx. 25% of .hexagon width + spacing */
   margin: 1px 18px;
   background-color: hsl(0, 0%, 95%);
-  font-family: 'Bangers', sans-serif;
-  font-size: 50%;
   text-align: center;
 }
 .hexagon4 {
@@ -241,8 +235,6 @@ body {
   /* left/right margin approx. 25% of .hexagon width + spacing */
   margin: 1px 18px;
   background-color: hsla(0, 0%, 0%, 1.0);
-  font-family: 'Bangers', sans-serif;
-  font-size: 50%;
   text-align: center;
 }
 .hexagon, .hexagon::before, .hexagon::after {
@@ -406,6 +398,7 @@ body {
   transform: translate(-50%, -50%);
   width: 150%;
   font-size: 1.4rem;
+  font-family: 'Bangers', sans-serif;
   line-height: 1.2;
   z-index: 100;
 }
