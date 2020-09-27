@@ -287,7 +287,7 @@ body {
   width: 50%;
 }
 
-/*
+
 @import "compass/css3";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
@@ -299,6 +299,23 @@ $green: rgba(169,160,50,.75);
 $yellow: rgba(252,171,55,.75);
 $brown: rgba(83,70,54,.75);
 
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  text-align: center;
+  margin: 100px 10px 0 10px;
+}
+
+body {
+  background: #fff;
+}
+
+section {
+  margin: 0 auto;
+  text-align: center;
+  width: 960px;
+}
 .hex_row_even {
   display: inline-block;
   margin: 0 auto -275px auto;
@@ -360,7 +377,11 @@ $brown: rgba(83,70,54,.75);
   &.three {
     background: $brown;
   }
-  
+  h2 {
+    margin: ($width - ($width / 4)) 20px 0 20px;
+  }
+  p {font-size: .5em; text-transform: lowercase;}
+}
 */
 
 .card-title {
