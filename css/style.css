@@ -316,6 +316,12 @@ section {
   overflow: hidden;
 } 
 
+.centerhex {
+  float: left;
+  margin: 20px 10px;
+  width: $width;
+}
+
 .hexagon {
   @include rotate(120deg);
   cursor: pointer;
