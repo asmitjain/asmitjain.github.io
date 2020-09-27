@@ -397,8 +397,8 @@ body {
   left: 45%;
   transform: translate(-50%, -50%);
   width: 150%;
-  font-size: 1.4rem;
   font-family: 'Bangers', sans-serif;
+  font-size: 1.4rem;
   line-height: 1.2;
   z-index: 100;
 }
