@@ -194,7 +194,38 @@ body {
   line-height: 1.5;
   margin-bottom: 32px;
 }
- 
+
+$width: 220px;
+
+.hex_row_odd {
+  display: inline-block;
+  margin: 0 auto -275px auto;
+  overflow: hidden;
+} 
+
+.hexagon {
+  cursor: pointer;
+  height: ($width *2);
+  overflow: hidden;
+  visibility: hidden;
+  width: $width;
+}
+
+.hex1 {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+.hex2 {
+  height: 100%;
+  position: relative;
+  visibility: visible;
+  width: 100%;
+}
+
+  
 /* Personal Info on landing Ending */
 .project-design {
   margin: auto;
