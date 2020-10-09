@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color:  #f5f5f5;
+  
   margin: 0px;
 }
 
@@ -140,6 +141,8 @@ body {
   color: #17223b;
   text-align: left;
   text-overflow: inherit;
+  padding-right: 5%;
+  padding-left: 5%;
   /* line-height: 1.2; */
 }
 
@@ -154,6 +157,8 @@ body {
   /*text-align: left;*/
   text-align: justify;
   text-justify: inter-word;
+  padding-right: 10%;
+  padding-left: 10%;
   /*text-overflow: ellipsis;*/
   line-height: 1.5;
 }
@@ -178,6 +183,7 @@ body {
   font-size: 38px;
   color: #17223b;
   text-align: left;
+  padding-left: 5%;
   /*margin-bottom: 24px;*/
 }
 
@@ -192,6 +198,8 @@ body {
   text-justify: inter-word;
   /*text-overflow: ellipsis;*/
   line-height: 1.5;
+  padding-left: 10%;
+  padding-right: 10%;
   margin-bottom: 32px;
 }
 
@@ -430,11 +438,12 @@ body {
   font-size: 38px;
   color: #17223b;
   text-align: left;
+  padding-left: 5%;
   /*margin-bottom: 24px;*/
 }
 
 .project-design p {
-  margin: 0px;
+  margin: 10px;
   padding-top: 24px;
   font-family: 'Lora', sans-serif;
   font-size: 20px;
@@ -442,9 +451,11 @@ body {
   /*text-align: left;*/
   text-align: justify;
   text-justify: inter-word;
-  /*text-overflow: ellipsis;*/
+  
   line-height: 1.5;
   margin-bottom: 32px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .prjt {
@@ -469,6 +480,7 @@ body {
   justify-content: center;
   box-shadow: 0px 1px 5px #e0e0e0;
   opacity: 0.9;
+  
   transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
@@ -487,6 +499,7 @@ body {
   display: block;
   width: 360px;
   height: 280px;
+
   border-radius: 8px 8px 0 0;
   transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -548,6 +561,7 @@ body {
   font-size: 38px;
   color: #17223b;
   text-align: left;
+  padding-left: 5%;
   /*margin-bottom: 24px;*/
 }
 
@@ -563,6 +577,8 @@ body {
   /*text-overflow: ellipsis;*/
   line-height: 1.5;
   margin-bottom: 32px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .skills-design {
@@ -583,6 +599,7 @@ body {
   font-size: 38px;
   color: #17223b;
   text-align: left;
+  padding-left: 5%;
   /*margin-bottom: 24px;*/
 }
 
@@ -598,6 +615,8 @@ body {
   /*text-overflow: ellipsis;*/
   line-height: 1.5;
   margin-bottom: 32px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .about {
   margin: auto;
@@ -623,6 +642,7 @@ body {
   font-size: 38px;
   color: #17223b;
   text-align: left;
+  padding-left: 5%;
   margin-bottom: 32px;
 }
 .underline-magical-sub-header {
@@ -665,7 +685,8 @@ body {
   font-family: 'Lora', sans-serif;
   font-size: 20px;
   color: #17223b;
-  
+  padding-left: 10%;
+  padding-right: 10%;
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.5;
@@ -844,6 +865,8 @@ body {
     text-overflow: ellipsis;
     line-height: 1.5;
     margin-bottom: 32px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .prjt {
@@ -909,6 +932,8 @@ body {
     /*text-overflow: ellipsis;*/
     line-height: 1.5;
     margin-bottom: 32px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   
   .skills-design {
@@ -932,6 +957,8 @@ body {
     text-justify: inter-word;
     /*text-overflow: ellipsis;*/
     line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 32px;
   }
   .about {
@@ -962,6 +989,8 @@ body {
     text-justify: inter-word;
     /*text-overflow: ellipsis;*/
     line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 32px;
 }
  
