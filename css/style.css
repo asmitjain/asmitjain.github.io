@@ -989,24 +989,24 @@ body {
     margin-bottom: 32px;
   }
   .about {
-   margin: auto;
+    margin: auto;
     max-width: 90%;
-    margin-left: 24px;
+    margin-left: 12px;
     padding-top: 100px;
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 48px;
-}
+  }
 
-.about-grid {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-}
+  .about-grid {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
 
 
-.about p {
-  margin: 0px;
+  .about p {
+    margin: 0px;
     padding-top: 20px;
     font-family: 'Lora', sans-serif;
     font-size: 20px;
@@ -1019,7 +1019,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 32px;
-}
+  }
  
 }
 
