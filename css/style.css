@@ -98,14 +98,14 @@ body {
 .landing-header {
   max-width: 100%;
   margin-top: 240px;
-  margin-left: 40px;
-  margin-right: 120px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 #personal-tag {
   font-family: 'Work Sans Medium', sans-serif;
   font-size: 30px;
-  color: #17223b;
+  color: #000000;
   text-align: left;
   line-height: 1.2;
   margin: 0px;
@@ -115,7 +115,7 @@ body {
 #personal-tag-para {
   font-family: 'Work Sans Medium', sans-serif;
   font-size: 30px;
-  color: #17223b;
+  color: #000000;
   text-align: left;
   line-height: 1.2;
   margin: 0px;
@@ -126,7 +126,7 @@ body {
 #personal-tag  span{
   font-family: 'Lora', sans-serif;
   font-size: 30px;
-  color: #17223b;
+  color: #000000;
   text-align: left;
   line-height: 1.2;
   margin: 0px;
@@ -138,11 +138,11 @@ body {
   padding-top: 16px;
   font-family: 'Work Sans Medium', sans-serif;
   font-size: 142px;
-  color: #17223b;
+  color: #000000;
   text-align: left;
   text-overflow: inherit;
   padding-right: 5%;
-  padding-left: 5%;
+  padding-left: 10%;
   /* line-height: 1.2; */
 }
 
@@ -153,7 +153,7 @@ body {
   font-family: 'Lora', sans-serif;
   font-weight: 400;
   font-size: 20px;
-  color: #17223b;
+  color: #000000;
   /*text-align: left;*/
   text-align: justify;
   text-justify: inter-word;
@@ -163,11 +163,12 @@ body {
   line-height: 1.5;
 }
 
+
 .domain-design {
   margin: auto;
   max-width: 100%;
-  margin-left: 40px;
-  margin-right: 120px;
+  margin-left: 250px;
+  margin-right: 250px;
   
   padding-top: 120px;
   margin-bottom: 48px;
@@ -181,9 +182,9 @@ body {
   padding-bottom: 12px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 38px;
-  color: #17223b;
+  color: #000000;
   text-align: left;
-  padding-left: 5%;
+  padding-left: 10%;
   /*margin-bottom: 24px;*/
 }
 
@@ -192,7 +193,7 @@ body {
   padding-top: 24px;
   font-family: 'Lora', sans-serif;
   font-size: 20px;
-  color: #17223b;
+  color: #000000;
   /*text-align: left;*/
   text-align: justify;
   text-justify: inter-word;
@@ -422,8 +423,8 @@ body {
 .project-design {
   margin: auto;
   max-width: 100%;
-  margin-left: 40px;
-  margin-right: 120px;
+  margin-left: 250px;
+  margin-right: 250px;
   padding-top: 120px;
   margin-bottom: 48px;
   margin-top: 72px;
@@ -436,9 +437,9 @@ body {
   padding-bottom: 12px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 38px;
-  color: #17223b;
+  color: #000000;
   text-align: left;
-  padding-left: 5%;
+  padding-left: 10%;
   /*margin-bottom: 24px;*/
 }
 
@@ -447,7 +448,7 @@ body {
   padding-top: 24px;
   font-family: 'Lora', sans-serif;
   font-size: 20px;
-  color: #17223b;
+  color: #000000;
   /*text-align: left;*/
   text-align: justify;
   text-justify: inter-word;
@@ -460,14 +461,14 @@ body {
 
 .prjt {
   display: grid;
-  grid-column-gap: 16px;
+  grid-column-gap: 1px;
   grid-row-gap: 56px;
   margin: auto;
   color: #444;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
   width: 95%;
-  /* max-width: 1230px; */
+  max-width: 1200px;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   grid-template-rows: repeat(auto, minmax(auto, 100px));
 }
@@ -532,7 +533,7 @@ body {
   margin: 0px;
   font-family: 'Roboto-Medium', sans-serif;
   font-size: 14px;
-  color: #9e9e9e;
+  color: #000000;
   text-align: left;
   letter-spacing: 3px;
   padding-left: 16px;
@@ -544,8 +545,8 @@ body {
 .workexp-design {
   margin: auto;
   max-width: 100%;
-  margin-left: 40px;
-  margin-right: 120px;
+  margin-left: 250px;
+  margin-right: 250px;
   
   padding-top: 120px;
   margin-bottom: 48px;
@@ -559,9 +560,9 @@ body {
   padding-bottom: 12px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 38px;
-  color: #17223b;
+  color: #000000;
   text-align: left;
-  padding-left: 5%;
+  padding-left: 10%;
   /*margin-bottom: 24px;*/
 }
 
@@ -570,7 +571,7 @@ body {
   padding-top: 24px;
   font-family: 'Lora', sans-serif;
   font-size: 20px;
-  color: #17223b;
+  color: #000000;
   /*text-align: left;*/
   text-align: justify;
   text-justify: inter-word;
@@ -584,8 +585,8 @@ body {
 .skills-design {
   margin: auto;
   max-width: 100%;
-  margin-left: 40px;
-  margin-right: 120px;
+  margin-left: 250px;
+  margin-right: 250px;
   padding-top: 120px;
   margin-bottom: 48px;
   margin-top: 72px;
@@ -597,9 +598,9 @@ body {
   padding-bottom: 12px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 38px;
-  color: #17223b;
+  color: #000000;
   text-align: left;
-  padding-left: 5%;
+  padding-left: 10%;
   /*margin-bottom: 24px;*/
 }
 
@@ -608,7 +609,7 @@ body {
   padding-top: 24px;
   font-family: 'Lora', sans-serif;
   font-size: 20px;
-  color: #17223b;
+  color: #000000;
   /*text-align: left;*/
   text-align: justify;
   text-justify: inter-word;
@@ -621,8 +622,8 @@ body {
 .about {
   margin: auto;
   max-width: 100%;
-  margin-left: 40px;
-  margin-right: 120px;
+  margin-left: 250px;
+  margin-right: 250px;
   padding-top: 120px;
   margin-bottom: 48px;
   margin-top: 72px;
@@ -640,9 +641,9 @@ body {
   padding-bottom: 12px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 38px;
-  color: #17223b;
+  color: #000000;
   text-align: left;
-  padding-left: 5%;
+  padding-left: 10%;
   margin-bottom: 32px;
 }
 .underline-magical-sub-header {
@@ -658,12 +659,12 @@ body {
 }
 
 .underline-magical-sub-header:hover {
-  background-size: 100% 95%;
+  background-size: 100% 100%;
   padding-bottom: 4px;
-  padding-top: 4px;
-  padding-left: 8px;
-  padding-right: 24px;
-  border-radius: 4px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
   cursor: auto;
 }
 
@@ -684,7 +685,7 @@ body {
   padding-top: 18px;
   font-family: 'Lora', sans-serif;
   font-size: 20px;
-  color: #17223b;
+  color: #000000;
   padding-left: 10%;
   padding-right: 10%;
   text-align: justify;
@@ -775,7 +776,7 @@ body {
   #page-header {
     font-family: 'Hammersmith One', sans-serif;
     font-size: 80px;
-    color: #17223b;
+    color: #000000;
     text-align: left;
     text-overflow: ellipsis;
     line-height: 1.5;
@@ -786,7 +787,7 @@ body {
     padding-top: 8px;
     font-family: 'Lora', sans-serif;
     font-size: 20px;
-    color: #17223b;
+    color: #000000;
     /*text-align: left;*/
     text-align: justify;
     text-justify: inter-word;
@@ -858,7 +859,7 @@ body {
     padding-top: 20px;
     font-family: 'Lora', sans-serif;
     font-size: 20px;
-    color: #17223b;
+    color: #000000;
     text-align: left;
     text-align: justify;
     text-justify: inter-word;
@@ -925,7 +926,7 @@ body {
     padding-top: 20px;
     font-family: 'Lora', sans-serif;
     font-size: 20px;
-    color: #17223b;
+    color: #000000;
     /*text-align: left;*/
     text-align: justify;
     text-justify: inter-word;
@@ -951,7 +952,7 @@ body {
     padding-top: 20px;
     font-family: 'Lora', sans-serif;
     font-size: 20px;
-    color: #17223b;
+    color: #000000;
     /*text-align: left;*/
     text-align: justify;
     text-justify: inter-word;
@@ -983,7 +984,7 @@ body {
     padding-top: 20px;
     font-family: 'Lora', sans-serif;
     font-size: 20px;
-    color: #17223b;
+    color: #000000;
     /*text-align: left;*/
     text-align: justify;
     text-justify: inter-word;
