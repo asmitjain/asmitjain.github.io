@@ -844,6 +844,32 @@ body {
     color: #727272;
   }
 
+  .domain-design {
+    margin: auto;
+    max-width: 90%;
+    margin-left: 24px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 100px;
+    margin-bottom: 48px;
+  }
+
+  .domain-design p {
+    margin: 0px;
+    padding-top: 20px;
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
   .project-design {
     margin: auto;
     max-width: 90%;
