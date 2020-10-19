@@ -991,7 +991,7 @@ body {
   .about {
     margin: auto;
     max-width: 90%;
-    margin-left: 12px;
+    margin-left: 2px;
     padding-top: 100px;
     text-align: justify;
     text-justify: inter-word;
@@ -1018,6 +1018,7 @@ body {
     line-height: 1.5;
     padding-left: 10%;
     padding-right: 10%;
+    margin-left: 6px;
     margin-bottom: 32px;
   }
  
