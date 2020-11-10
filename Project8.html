@@ -1,0 +1,492 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Asmit Jain's Project 8</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <script src="./js/index.js"></script>
+  <!-- Sticky Header BEGINS -->
+  <div id="sticky-header">
+    <div class="top-navigation">
+      <span><a href="index.html">ASMIT JAIN</a></span>
+      <span><a href="index.html#project-design">PROJECTS</a></span>
+      <span><a href="#workexp-design">WORK EXPERIENCE</a></span>
+      <span><a href="index.html#about">ABOUT</a></span>
+      <span><a href="https://drive.google.com/file/d/1mKp8SMaigExeC5JSFWjSTU_Aj5dEMAst/view" target="_blank">RESUME/CV</a></span>
+    </div>
+  </div>
+  <!-- Sticky Header ENDS -->
+  
+  
+  <!-- Project7 Section BEGINS -->
+  <div class="project-design" id="project-design">
+    <h2><span class="underline-magical-sub-header">Project 8</span></h2>
+    <div class="project-grid">
+      <br>
+      <br>
+      <h2> Real-time Data Acquisition of Water Treatment System using Python & PowerBi  </h2>
+      <br>
+      <br>
+      <img src="./images/asmitjainP7_1.PNG" alt="BAJA" class="center">
+      <br>
+      <p><b><i> INTRODUCTION:</i></b>
+    
+      <br>
+      <br>
+      <b>Want to implement automated data acquisition and real-time monitoring system in your project? Check this out!</b>
+      <br>
+      <br>
+      This spring, I had the opportunity to work with Elateq, a water purification startup aiming at developing a cleaner and greener wastewater treatment solution with their patented technology. This company is building a cost-effective solution for advanced water treatment removing heavy metals, pathogens and toxic man-made chemicals through all-in-one approach. They aim to serve various industries which include metal plating, pharmaceuticals manufacturing, food & beverage, and agriculture. It was a thoroughly exciting and rewarding experience for me. So, I decided to unfold my experience with you all. 
+      Elateq’s patent-pending technology uses low-level electricity and proprietary carbon material developed by them. The novelty of their technology intertwines and improves the properties of carbon and electrochemical process. The concept relies on the basics of electrochemistry but enhanced by innovative design and application of electric field, providing multiple zones of reaction for different contaminants. If you are interested in learning more about this company and would like to be a part of this project, please visit <a href="http://www.elateq.com/">ELATEQ - Cleaner & Greener Water Purification Technologies</a>
+      <br>
+      <br>
+      I met one of the co-founders of the company at Greentown Labs (one of the largest incubators in North America) in Somerville, MA. When she talked about her company’s idea of developing a low-cost device for water purification, I got electrified by the concept. After having an engaging discussion, I pitched an idea of designing and prototype some parts at ADDFab, a prototyping lab at UMass. She really liked the suggestion and agreed to utilize some of the best technology available in the vicinity. It bolstered my confidence to get associated with this company and make a tiny contribution to developing a device in less turnaround time. My initial projects with Elateq were to create some CAD models and prototypes using the 3D printers. I also made 2D drawings of the components to get quotations from the suppliers. 
+      <br>
+      <br>
+      While working on the designing part, the co-founder discussed the idea of developing a real device which involved a lot of hardware integration and computer programming. Being from a mechanical background, I knew that this is going to be challenging. But I decided to give it a shot. This was the best opportunity to learn the electronics, coding part and implement it. Within a week, she gathered all the hardware to start some trials. The very first and primary step was to run and control the system using the RPi. It should have varying speed controls in different direction using the code. Once we were able to solve that, the next challenge was to figure out how to implement a real-time data acquisition system. I took a bunch of temperature sensors and started to collect the data. Getting the data was not difficult but getting that data and uploading it to the cloud was a bit tricky. We explored various options to see how it can be achieved. After trying several options, we pinned down the choice which we will see in the upcoming sections. 
+      <br>
+      <br>
+      So basically, this interface would allow them to perform real-time data acquisition and monitoring system for water treatment pilot device. I never imagined working on this type of project where I can implement my coding and data analysis skills. Since then, my motivation was to work with this tech startup and develop a complete device for pilot testing, which could verify the concept, build processes and allow the team to conduct cost and design feasibility. The results derived from the initial experiments would help the company to set the processes, control parameters and would empower them to develop a full-scale, water purification device. 
+      <br>
+      <br>
+      I hope you enjoy reading this. Please do let me know what you think about this project.
+      <br>
+      <br>
+      <b><i>NOTE: Due to some privacy policies and agreement with the company, I will not disclose any internal information.  But I’ll try my best to explain the gist to help you understand the technicalities of the project. </i></b>
+
+      <br>
+
+      <br>
+      <p><b><i> HARDWARE & SOFTWARE:</i></b>
+      <br>
+      <br>
+      <b>•	Raspberry Pi3 with a display, HDMI cable, keyboard and mice:</b> Raspberry Pi is a powerful mini-computer for DIY projects. They are very cheap but very efficient for high-tech projects. The best thing about RPi is that they are compact and robust for handling complex processes. You can get it for less than USD 50.00 
+
+      <br>
+      <br>
+      <b>•	LabJack T7 Pro:</b> The T7 is our most versatile multifunction DAQ platform. It is a data logger which helps to measure system parameters using a wide variety of sensors and develop automation devices and prototyping development. It has both analog and digital input and output capabilities.  
+      <br>
+      <br>
+      <b>•	Kipling application:</b> Kipling is a configuration and utility application for the T4 and the T7/T7-Pro. It is a cross-platform program which uses LJM for device communication. It provides basic test, configuration, and firmware upgrade functionality in a graphical interface.
+      <br>
+      <br>
+      <b>•	Microsoft PowerBi:</b> A data visualization software to visualize your data, creating reports personalized graphs and get deeper data insights
+      <br>
+      <br>
+      <b>•	Motors, LEDs, Jumper Cables, Wires and some general electrical stuff</b>
+    
+      <br>
+      <br>
+      <p><b><i> PROCESS FLOW:</i></b>   
+      <br>
+      <br>
+
+      •	Install the Operating System on Raspberry Pi 3 (RPi3)
+      <br>
+
+      •	Install the required libraries for Python & connecting devices
+      <br>
+
+      •	Connect the motors, hardware with complete electrical wiring
+      <br>
+
+      •	Attach Labjack, industrial-grade data logger via USB, Ethernet or WiFi
+      <br>
+
+      •	Run the python code on RPi3
+      <br>
+
+      •	Initiate the data acquisition
+      <br>
+      •	Save the file in CSV format
+      <br>
+      •	Send the JSON format data to PowerBi using push API
+      <br>
+      •	Create a live streaming data set in PowerBi to capture data
+      <br>
+      •	Create tiles in dashboards to monitor system parameters in real-time
+      <br>
+      •	Set the mobile application to see real-time data in mobile
+      <br>
+      <br>
+
+      <p><b><i> SETUP:</i></b>   
+      <br>
+      <br>
+      Once you gather all the hardware and software, your very step should be to set up your RPi. This section will give in-depth instructions on how to install all the required software from scratch. If in case your Pi crashes, you can follow the same instructions to troubleshoot.
+
+      <br>
+      <br>
+      For a new device, you need a Pi with pre-installed Raspbian. Most of the devices come with the installed software. You just need to connect the power cord. If you don’t have the pre-installed file, you can download files from this <a href="https://www.raspberrypi.org/downloads/noobs/">website</a>. Select Offline & Network Install and download. You might need to format the SD card first.  For formatting the card and in-depth installation, follow this <a href="https://www.youtube.com/watch?v=jsi50bCo_W4">video</a>
+      <br>
+      <br>
+      <i>Note: In case of a crashed Pi, you have two options. The first one is to completely format the SD card and reinstall the Raspbian on the SD card. For this, follow the instructions given in the previous paragraph. The second option is to use the old Raspbian already installed on the crashed SD card. This is not a recommended step as the installation files, memory partition, or some other system files might be corrupt. Use this option only if you don’t have any source to format the SD card and download the setup.</i>
+
+      <br>
+      <br>
+      <b>Getting Started:</b> An easy way is presented in this <a href="https://www.youtube.com/watch?v=gbJB3387xUw">video</a>
+      <br>
+      <br>
+      For getting started, connect HDMI, mouse and keyboard to the Pi. Also, plug a network cable. After a colorful screen, a setup page will appear automatically. Select Raspbian and hit install.
+      If you are using the old hardware, press shift (when it gives the option) to open the recovery mode. Select Raspbian and hit install. A confirmation page will appear, which will warn you about your data loss.
+      
+      Wait for 30 min to install the OS. 
+
+      <br>
+      <br>
+      <b>1. Desktop Menu:</b>
+      After you get to the desktop, the next thing we have do is to set up the software part. Start with configuring the Pi. Watch the previous video to do the same. After configuration, it will ask for a reboot.
+      Note: If the time is not updated, try to check the LAN connection or set WiFi, if available. As soon as the connection is established, the date and time will get updated. 
+      <br>
+      <br>
+      <b>2. Software:</b>
+      The Pi comes with preinstalled apps that take up a lot of space. The first thing we can do is to uninstall all of them to save some memory. 
+      Open the terminal by clicking the terminal icon on the top ribbon. See attached picture.
+      <br>
+      <br>
+      In the terminal, write <b>“sudo apt-get purge -y packagename”</b>. This command removes the software from the Pi. Below is the list of all the packages.  If you don’t want to write commands again and again. You can write all the packages in just one line. For example, <b>“sudo apt-get purge -y packagename1 packagename2 packagename3 packagename4…..”</b>. The list of all the packages are listed below:
+      <br>
+      <br>
+                      wolfram-engine, scratch, scratch2, claws-mail, smartsim, micecraft-pi, geany, bluej, sonic-pi, nodered
+      greenfoot, python-pygame
+      <br>
+      <br>
+      Updating the package database requires superuser privileges, so you’ll need to use sudo. After removing the software, write <b>sudo apt-get update</b>.
+      Once you have updated the package database, you can upgrade the installed packages <b>sudo apt-get upgrade</b>. This might take some time.
+      For all the other details, follow this <a href="https://www.raspberrypi-spy.co.uk/2018/03/free-space-raspberry-pi-sd-card/">video</a>.
+      You can use the command below to clean the local repository of retrieved package files and save some space <b>sudo apt-get clean</b>
+      <br><br>
+      One of the many ways is to use autoclean. Unlike the above clean command, autoclean only removes those retrieved package files that have a newer version now, and so won’t be used anymore <b>sudo apt-get autoclean</b>.
+      Another way to free up disk space is to use autoremove. It removes libraries and packages that were installed automatically to satisfy the dependencies of another installed package. If that package is removed, these automatically installed packages are useless in the system. This command removes such packages.
+      <b>sudo apt-get autoremove</b>.
+      <br><br>
+      To check the space on RPi, type <b>df -h</b>
+      To clear the content on the screen, use <b>clear</b>
+      <br><br>
+      The next thing you can do is to download TeamViewer. This will allow you to control your Pi remotely. 
+      <a href="https://www.teamviewer.com/en/download/raspberry-pi/">TeamViewer</a>
+      The default user ID is pi and the password for Raspberry Pi is raspberry
+      After installation, open TeamViewer Host and click on the setting option (gear icon). Go to security and assign a password. Note down your unique ID so that you can control it remotely. Now, login to the computer which has all the backup files. Open TeamViewer on that and write RPi’s ID to connect the system. Once done, you will find an option in the top ribbon <i>Transfer Files</i>. Locate the files on the backup computer and hit the SEND/RECEIVE button to transfer files.
+      <br><br>
+      <b>3. Packages:</b>
+      To use the Labjack data loggers, you will need some files which will help us to establish a connection between the Pi, Python and Labjack.
+      The first step is to install the LJM Software Installers. Open <a href="https://labjack.com/support/software/installers/ljm">LabJack LJM</a>.
+      Look for Linux ARMv7. If you are using a different OS (not on RPi), you can select the respective downloadable file.
+      Download the release version –<i>LabJackM-1.1804-Raspbian-Linux-armhf-release.tar.gz</i>. This is a zip file (just like windows). The next step is to unzip it. There are two options to do that. Either you can open the folder and use the <i>EXTRACT</i> option on the top ribbon. Or you can simply write the commands mentioned below. But first, make sure that you are in the location where the zip file is. For example, if the file is in the Download folder and you are on Desktop. You will have to write cd Downloads in the terminal. Once you are at the right location, write:
+      <br><br>
+      $ tar -zxvf LabJackM-1.1804-Raspbian-Linux-armhf-release.tar.gz<br>
+      $ cd LabJackM-1.1804-Raspbian-Linux-armhf<br>
+      $ sudo ./LabJackM.run<br><br>
+
+      This installation was for RPi and Labjack. Now, if we are using Python script to control the device, we will need to install Python LJM. You can either write:
+      <b>sudo pip install labjack-ljm</b> in the terminal. Or you can download the files from the link mentioned on <a href="https://labjack.com/support/software/examples/ljm/python">LabJack Python</a>
+      . After downloading, unzip the folder and run the setup file. 
+      <br><br>
+      You are all set! This completes your installation. You can now run your script.
+      <br><br>
+
+      <p><b><i> CODE FILES:</i></b>   
+      <br>
+      <br>
+      In total, we made three files.
+      <br><br>
+      1.	Device1.py (name may vary)<br>
+      2.	Instruction.txt file<br>
+      3.	Requirement.txt file<br><br>
+      When you open the <b>Requirement.txt</b> file, you will see all the libraries required to run your setup. These libraries are mentioned at the top of the python file.
+      When you open the <b>Instruction.txt</b> file, you will find a bunch of commands. Let’s try to understand each line.
+      <b>sudo apt-get install libatlas-base-dev</b> (Required for Numpy to work on RPi)
+      <br><br>
+      <b>python3 -m venv company name</b>: Creates a new environment named “elateq”
+      <br><br>
+      <b>source company name/bin/activate</b>: activates the environment named “elateq”
+      <br><br>
+      <b>which python</b>: checks which python the environment is using and its location
+      <br><br>
+      <b>which pip</b>: same as above
+      <br><br>
+      <b>python –version</b>: check the version of python
+      <br><br>
+      <b>pip –version</b>: same as above
+      <br><br>
+      <b>git –version</b>: same as above
+      <br><br>
+      <b>pip list</b>: lists all the libraries available in the environment
+      <br><br>
+      <b>pip install -r requirements.txt</b>: install the libraries mentioned in the Requirements.txt file.
+      <br><br>
+      Out of all these commands, only an activation command is required to run the setup. You need all the commands only if your setup is new. <b>source elateq/bin/activate</b>.
+      
+      Once done, you can simply run the python script. Make sure you are in the right location as the python script. 
+      <br><br>
+
+      <p><b><i> WORKING CONDITIONS:</i></b>   
+      <br>
+      <br>
+      •	There are two main cycles in the system: The first one is the Cycle1 which drives one type of operation and the second one is the Cycle2, which performs the other type of operation. The current code is set to perform the cycle1 for x min and the cycle2 for y min. The flexibility is given to the customers where they can change the timing.
+      <br><br>•	As soon as the code is run, it starts recording the system parameters. These parameters are recording the data at an interval set by the customer. 
+      <br><br>•	It performs some complex calculations and notify the customer if they are out of bounds. 
+      <br><br>•	After performing calculations and comparing data to set parameters, it will automatically decide what values are acceptable. And based on that, it will continue the cycle1. If the values are out of bounds, it will perform the cycle. On the display, the customer can see the parameters along with the system current status (cycle1/ cycle2)
+      <br><br>•	The code won’t do the calculations until it collects the n values. Once it collects and performs calculations, it will automatically clear the list and put new data. 
+      <br><br>•	If consecutive cycles of cycle2 are occurring, it keeps count of it. If there are more than n consecutive cleaning cycles, it will display a message “Maintenance revery quired” along with the current cycle type. It indicates that there is something wrong with the system components. The maintenance message won’t clear until the team fixes the system.
+      <br><br>•	All the data can be displayed on the code terminal, dashboard, mobile app in real-time. The push API will send the data to the cloud in JSON format. And it will always save the .CSV log file in the system too if there is any problem with the internet data transfer. We can add/ delete header columns for different values. It also gives the date and time stamp to all the data.
+      <br><br>•	The parameters calculated were related to electrical properties of the internal components, system status, date/ time, maintenance count, number of data points, etc.
+      <br><br>
+
+      There are several timers which initiate during the process to track different activities. They all get triggered at different points and reset itself after the set activities have been performed. 
+      <br><br>
+
+      <p><b><i> PYTHON CODE:</i></b>   
+      <br>
+      <br>
+      If you are new to the coding environment, the most challenging part is to decide which language to choose for your projects. And it is apparent confusion as there are multiple coding languages available in the market. All the languages are best of its kind and are used equally everywhere around the globe. So, it all depends on you. 
+      <br><br>
+      I started my coding career with MATLAB, which is mostly used in academics for numeric computing. During my MS degree, I used to do all my assignments for Advanced Numerical Analysis in it. As this is not an open-source language, I decided to work on Python, which is similar to MATLAB. Leaning programming in MATLAB laid a strong foundation for me to incline towards programming. Once I got used to the programming environment, I started doing online courses during my free time for augmenting my coding skills. I always aimed to work on some projects so that I can implement my learning and retain knowledge for a more extended period. 
+      <br><br>
+      I have been learning Python language for a couple of years now. Its user-friendly libraries, support modules and packages are great for beginners and easy to understand. There are thousands of resources and video tutorial on the internet, which can help you to become a successful programmer. As I am focusing more on automating and robotics, I chose Python as my language. 
+      <br><br>
+      This project involves a lot of automation for controlling the system and acquisition of data. Let me show you one of the many applications of this language. I have attached the entire code below for reference. I tried my best to comment and explain each and every line of code for better understanding. For all the other questions, you can contact me.
+      <br><br>
+      </p>
+    </div>
+  </div>
+  <!-- Slideshow container -->
+  <div class="slideshow-container1">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade" style="display: block">
+      <div class="numbertext">1 / 13</div>
+      <img src="./images/asmitjainP8_1.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 13</div>
+      <img src="./images/asmitjainP8_2.PNG" style="width:100%">
+     
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 13</div>
+      <img src="./images/asmitjainP8_3.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 13</div>
+      <img src="./images/asmitjainP8_4.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 13</div>
+      <img src="./images/asmitjainP8_5.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 13</div>
+      <img src="./images/asmitjainP8_6.PNG" style="width:100%">
+     
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 13</div>
+      <img src="./images/asmitjainP8_7.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">8 / 13</div>
+      <img src="./images/asmitjainP8_8.PNG" style="width:100%">
+     
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">9 / 13</div>
+      <img src="./images/asmitjainP8_9.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">10 / 13</div>
+      <img src="./images/asmitjainP8_10.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">11 / 13</div>
+      <img src="./images/asmitjainP8_11.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">12 / 13</div>
+      <img src="./images/asmitjainP8_12.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">13 / 13</div>
+      <img src="./images/asmitjainP8_13.PNG" style="width:100%">
+      
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+    
+    <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+    <span class="dot" onclick="currentSlide(12)"></span>
+    <span class="dot" onclick="currentSlide(13)"></span>
+  </div>
+
+  <div class="project-design" id="project-design">
+    <div class="project-grid">  
+      <p><b><i> MICROSOFT POWERBI:</i></b>   
+      <br>
+      <br>            
+      The next step in this project is to handle the data collected by the code. For live monitoring the system performance, we needed an application which could give a detailed report in real-time, plot some graphs for data visualization. As the company aimed at providing the data access to the customers of their system, the best feature we can have is to see data from anywhere across the globe, 24 x 7. And all this was achievable through an advanced platform called Microsoft PowerBi. 
+      <br><br>
+      Microsoft’s PowerBi is a cloud-based analytical solution which empowers customers to see and visualize data in real-time. We explored many other ways to do the same like Microsoft’s Azure services or Tkinter package in Python. But PowerBi seemed to have easy data access and was probably the best way to monitor the system for this project. It is a very efficient and easy-to-use tool at a very low monthly cost.  
+      <br><br>     
+      In the code, we used a Push API to send data to the cloud. This API is generated within PowerBi. To generate the API and get the data, we will have to follow the steps mentioned below. This section will give you all the necessary information to build links, dashboards, and tiles for monitoring the system’s health in real-time. So please sit back and relax!
+      <br><br>
+    </div>
+  </div>  
+
+<!-- Slideshow container -->
+  <div class="slideshow-container2">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade" style="display: block">
+      <div class="numbertext">15 / 24</div>
+      <img src="./images/asmitjainP8_15.PNG" style="width: 100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">16 / 24</div>
+      <img src="./images/asmitjainP8_16.PNG" style="width:100%">
+    
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">17 / 24</div>
+      <img src="./images/asmitjainP8_17.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">18 / 24</div>
+      <img src="./images/asmitjainP8_18.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">19 / 24</div>
+      <img src="./images/asmitjainP8_19.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">20 / 24</div>
+      <img src="./images/asmitjainP8_20.PNG" style="width:100%">
+    
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">21 / 24</div>
+      <img src="./images/asmitjainP8_21.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">22 / 24</div>
+      <img src="./images/asmitjainP8_22.PNG" style="width:100%">
+    
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">23 / 24</div>
+      <img src="./images/asmitjainP8_23.PNG" style="width:100%">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">24 / 24</div>
+      <img src="./images/asmitjainP8_24.PNG" style="width:100%">
+      
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+    
+    <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(15)"></span>
+    <span class="dot" onclick="currentSlide(16)"></span>
+    <span class="dot" onclick="currentSlide(17)"></span>
+    <span class="dot" onclick="currentSlide(18)"></span>
+    <span class="dot" onclick="currentSlide(19)"></span>
+    <span class="dot" onclick="currentSlide(20)"></span>
+    <span class="dot" onclick="currentSlide(21)"></span>
+    <span class="dot" onclick="currentSlide(22)"></span>
+    <span class="dot" onclick="currentSlide(23)"></span>
+    <span class="dot" onclick="currentSlide(24)"></span>
+
+  </div>
+
+  <div class="project-design" id="project-design">
+    <div class="project-grid"> 
+      <p><b><i> CSV FILE:</i></b>   
+      <br>
+      <br>  
+      If you remember the CODE section, we are generating a CSV file with all the data. This feature was added to keep track of the system in case of no internet connectivity. This file can save a vast amount of data with very low disk space.
+      <br><br>
+      If you want to add more data columns to the CSV file, please follow the instructions mentioned in the CODE section. You can change the name and location of the file and define the data collection rate too.
+      <br><br>
+      <img src="./images/asmitjainP8_14.PNG" style="width:70%" class="center">
+      
+      <br><br>
+      <p> This marks the end of the project. I hope you liked it. Please feel free to contact me if you have any questions or need any additional information from my end. </p>
+    </div>
+  </div>
+   <!-- Project7 Section ENDS -->
+      
+    <!-- External links Section BEGINS -->
+  <div class="footer">
+    <span><a href="https://github.com/asmitjain" target="_blank"><img src="./images/social/github.svg" alt="Link to Github Profile"></a></span>
+    <span><a href="https://www.linkedin.com/in/thisisasmit" target="_blank"><img src="./images/social/linkedin.svg" alt="Link to Linkedin Profile"></a></span>
+    <span><a href="https://twitter.com/thisisasmit" target="_blank"><img src="./images/social/twitter.svg" alt="Link to Twitter Profile"></a></span>
+  </div>
+  <!-- External links Section ENDS -->
+
+</body>
+
+</HTML>
