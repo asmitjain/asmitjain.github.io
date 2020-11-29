@@ -47,7 +47,8 @@
 </head>
 
 <body>
-  <script src="./js/index.js"></script>
+
+
   <!-- Sticky Header BEGINS -->
   <!-- <div id="sticky-header">
     <div class="top-navigation">
@@ -59,67 +60,59 @@
     </div>
   </div> -->
   <!-- Sticky Header ENDS -->
+  <div class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a href="#" class="logo" style="font-size: 25px; color:aqua;">Asmit Jain</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">ASMIT JAIN</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="color: white;">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">Contact Me</a>
+          </li>
+        </ul>
+      </div>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
+
+    </nav>
+  </div>
 
   <main>
-    <section class="section" style="padding-top: 100px;">
+
+
+
+    <section class="section" id="aboutme" style="padding-top: 100px;">
       <div class="container">
         <h1 class="title">About Me</h1>
         <hr>
         <p>
-          I am an MS Mechanical Engineer from the University of Massachusetts, Amherst. I am currently working as a Research & Development Engineer at
+          I am an MS Mechanical Engineer from the University of Massachusetts, Amherst. I am currently working as a
+          Research & Development Engineer at
           <a href="https://www.exceldryer.com/" target="_blank">Excel Dryer</a>
-          and part-time as an Additive Manufacturing & Design Engineer at <a href="https://www.umass.edu/ials/addfab" target="_blank">ADDFab Lab</a> in Life Sciences Laboratories - UMass
-          Amherst.
-          <br>
-          <br>
-          Welcome to my WORK PORTFOLIO, a virtual showcase of my multidisciplinary engineering career. 
-          It is an attempt to build my first digital masterpiece, which is one of the best ways to demonstrate all my projects and prior work experience 
-          in different domains and industries. This website will walk you through over my comprehensive work samples and will help you to 
-          understand what my background is, what I have accomplished and what I am capable of achieving in the future. <a href="https://www.linkedin.com/in/thisisasmit/"
-            target="_blank">LinkedIn</a> or send an email at <b>asmitjain@gmail.com</b>
+          and part-time as an Additive Manufacturing & Design Engineer at <a href="https://www.umass.edu/ials/addfab"
+            target="_blank">ADDFab Lab</a> in Life Sciences Laboratories - UMass
+          Amherst. I am focusing on Product and Process Design & Development, Lean Manufacturing & Industrial Automation
+          and am always looking for new projects.
+          If you'd like to learn more about my skills and qualifications, feel free to connect with me on
+          <a href="https://www.linkedin.com/in/thisisasmit/" target="_blank">LinkedIn</a> or send a quick email at
+          <b>thisisasmit@gmail.com</b>
         </p>
       </div>
     </section>
 
-    <div class="album py-3">
+    <div class="album py-3" id="workexp">
       <div class="container">
         <h1 class="title">Work Experience</h1>
         <hr>
@@ -127,104 +120,131 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainEDFabthumbnail.jpg" alt="">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h5 class="card-title">R&D Engineer</h5>
+                <p class="card-text">Excel Dryer, Inc - Massachusetts</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
+                  <a href="ExcelDryer.html" target="_self">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+                  <small class="text-muted">Nov 2019- Current</small>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img class="bd-placeholder-img card-img-top" height="250px" width="auto" src="./asmitjainP5_12.PNG"
-                alt="">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainADDFabthumbnail.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">3D Printing & Design Engineer</h5>
+                <p class="card-text">ADDFab Lab - Massachusetts</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="ADDFab.html" target="_self">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+                  <small class="text-muted">Jan 2019 - Current</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainISLthumbnail.PNG" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Research Assistant </h5>
+                <p class="card-text">Intelligent Sensing Lab - Massachusetts</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="ISLab.html" target="_self">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+                  <small class="text-muted">Sep 2018 - Aug 2019</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainVECVthumbnail.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Technical Services Intern </h5>
+                <p class="card-text">Volvo - Eicher Commercial Vehicles - India</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="VECV.html" target="_self">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+                  <small class="text-muted">Jul 2018 - Sep 2018</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainMANthumbnail.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Production Management Intern</h5>
+                <p class="card-text">MAN Trucks - India</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="MAN1.html" target="_self">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+                  <small class="text-muted">Jul 2018 - Sep 2018</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainMAHLEthumbnail.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Sales & Application Engineer </h5>
+                <p class="card-text">MAHLE Engine Components - India</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="MAHLE.html" target="_self">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+                  <small class="text-muted">Apr 2016 - Jun 2017</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainMAN2thumbnail.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Maintenance Engineer Intern</h5>
+                <p class="card-text">MAN Trucks - India</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="MAN2.html" target="_self">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+                  <small class="text-muted">Jun 2014 - Jul 2014</small>
+                </div>
+              </div>
+            </div>
+          </div>
 
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="bd-placeholder-img card-img-top" height="250px" width="auto" src="./asmitjainP5_10.PNG"
-                alt="">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
 
@@ -233,8 +253,11 @@
     </div>
 
     <!-- PROJECTS -->
+    <!-- PROJECTS -->
+    <!-- PROJECTS -->
+    <!-- PROJECTS -->
 
-    <div class="album py-2">
+    <div class="album py-2" id="projects">
       <div class="container">
         <h1 class="title">Projects</h1>
         <hr>
@@ -242,109 +265,300 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto" src="./images/asmitjainP8_1.png"
+                alt="">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h5 class="card-title">Real-time Data Acquisition of Water Treatment System </h5>
+                <medium class="text-muted ">Automation | Data Acquisition | Python Programming | PowerBi</medium>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
+                  <a href="Project8.html" target="_self">
+                    <br>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainthumbnailSCANNER.jpg" alt="">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h5 class="card-title">3D Scanner for Medical Applications</h5>
+                <medium class="text-muted"> SolidWorks | FEA | Prototyping | 3D Printing | PI Controllers</medium>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
+                  <a href="Project1.html" target="_self">
+                    <br>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./asmitjainP5_10.PNG" alt="">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainMachineLearning.png" alt="">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h5 class="card-title">Fault Detection & Prediction using Machine Learning</h5>
+                <medium class="text-muted">Data Analysis | Predictive Maintenance | Vibration Analysis | NI DAQ | MATLAB
+                  | ML</medium>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
+                  <a href="Project2.html" target="_self">
+                    <br>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+
                 </div>
               </div>
             </div>
           </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto" src="./images/asmitjainPLC.png"
+                alt="">
+              <div class="card-body">
+                <h5 class="card-title">PLC Programming for Industrial Automation </h5>
+                <medium class="text-muted">PLC Programming | Allen-Bradley Rockwell Automation RSLogix 500</medium>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="Project3.html" target="_self">
+                    <br>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto" src="./images/asmitjainHMI.png"
+                alt="">
+              <div class="card-body">
+                <h5 class="card-title">Process Visaulization with HMI/SCADA</h5>
+                <medium class="text-muted">HMI & SCADA | Siemens TIA Portal | P&ID | Wonderware | EasyBuilder 5000
+                </medium>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="Project4.html" target="_self">
+                    <br>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto" src="./images/asmitjainFSAE.png"
+                alt="">
+              <div class="card-body">
+                <h5 class="card-title">Modelling, Simulating & Optimizing FSAE Chassis</h5>
+                <medium class="text-muted"> SolidWorks | FEA | Optimization | Sturtural & Dynamic Analysis | ANSYS
+                </medium>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="Project5.html" target="_self">
+                    <br>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto" src="./images/asmitjainNPR.png"
+                alt="">
+              <div class="card-body">
+                <h5 class="card-title">Negative Poisson Ration Structure using Lithography</h5>
+                <medium class="text-muted">Auxetics | Soft Lithography | SEM | PDMS</medium>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="Project6.html" target="_self">
+                    <br>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto" src="./images/asmitjainATV.jpg"
+                alt="">
+              <div class="card-body">
+                <h5 class="card-title">Baja SAE ATV Challenge</h5>
+                <medium class="text-muted">Design | Prototyping | Manufacturing | Machine Shop | Automobile</medium>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="Project7.html" target="_self">
+                    <br>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="bd-placeholder-img card-img-top" height="250px" width="auto"
+                src="./images/asmitjainProjects.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Other Projects</h5>
+                <medium class="text-muted">Multiple Domains: MATLAB | SIMULINK | CONTROLS </medium>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="Other Projects.html" target="_self">
+                    <br>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- SKILLS -->
-    <!-- SKILLS -->
-    <!-- SKILLS -->
-    <!-- SKILLS -->
-    <div class="container py-2">
-      <h1 class="title">Skills</h1>
-      <hr>
 
-      <h5>Sommething</h5>
-      <div class="progress mb-3">
-        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-      <h5>Sommething</h5>
-      <div class="progress mb-3">
-        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-          aria-valuemax="100"></div>
-      </div>
-      <h5>Sommething</h5>
-      <div class="progress mb-3">
-        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-          aria-valuemax="100"></div>
-      </div>
-      <h5>Sommething</h5>
-      <div class="progress mb-3">
-        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-          aria-valuemax="100"></div>
-      </div>
-      <h5>Sommething</h5>
-      <div class="progress mb-3">
-        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-          aria-valuemax="100"></div>
+    <!-- SKILLS -->
+    <!-- SKILLS -->
+    <!-- SKILLS -->
+    <!-- SKILLS -->
+    <div class="album py-3" id="skills">
+      <div class="container">
+        <h1 class="title">Skills</h1>
+        <hr>
+        <div class="row m-3">
+          <h4 class="sub-title p-2">CAD & FEA</h4>
+          <button type="button" class="btn btn-outline-secondary m-2">SolidWorks (CSWP)</button>
+          <button type="button" class="btn btn-outline-secondary m-2">AutoCAD</button>
+          <button type="button" class="btn btn-outline-secondary m-2">CATIA</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Pro-E/ Creo</button>
+          <button type="button" class="btn btn-outline-secondary m-2">ANSYS</button>
+        </div>
+        <div class="row m-3">
+          <h4 class="sub-title p-2">3D Printing & Prototyping</h4>
+          <button type="button" class="btn btn-outline-secondary m-2">EOS: P110 (Polymer) & M290 (Metal)*</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Markforged II/ Onyx</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Stratasys Connex 350</button>
+        </div>
+        <div class="row m-3">
+          <h4 class="sub-title p-2">DAQ & Analysis</h4>
+          <button type="button" class="btn btn-outline-secondary m-2">Machine Learning</button>
+          <button type="button" class="btn btn-outline-secondary m-2">PowerBi</button>
+          <button type="button" class="btn btn-outline-secondary m-2">MS Office</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Minitab</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Data Loggers: NI & LabJack</button>
+          <button type="button" class="btn btn-outline-secondary m-2">NI LabVIEW</button>
+        </div>
+        <div class="row m-3">
+          <h4 class="sub-title p-2">Lean Six Sigma</h4>
+          <button type="button" class="btn btn-outline-secondary m-2">Six Sigma Green Belt</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Kanban</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Kaizen</button>
+          <button type="button" class="btn btn-outline-secondary m-2">RCA</button>
+          <button type="button" class="btn btn-outline-secondary m-2">SMED</button>
+          <button type="button" class="btn btn-outline-secondary m-2">JIT</button>
+          <button type="button" class="btn btn-outline-secondary m-2">5S & TPM</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Poka-Yoke</button>
+        </div>
+        <div class="row m-3">
+          <h4 class="sub-title p-2">Industrial Automation</h4>
+          <button type="button" class="btn btn-outline-secondary m-2">AB Rockwell RSLogix 500</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Siemens TIA Portal Step 7</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Wonderware (Indusoft)</button>
+          <button type="button" class="btn btn-outline-secondary m-2">EasyBuilder 5000</button>
+        </div>
+        <div class="row m-3">
+          <h4 class="sub-title p-2">Programming</h4>
+          <button type="button" class="btn btn-outline-secondary m-2">MATLAB</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Arduino</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Raspberry Pi</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Python</button>
+          <button type="button" class="btn btn-outline-secondary m-2">HTML/ CSS</button>
+        </div>
+        <div class="row m-3">
+          <h4 class="sub-title p-2">Quality & Safety</h4>
+          <button type="button" class="btn btn-outline-secondary m-2">APQP</button>
+          <button type="button" class="btn btn-outline-secondary m-2">DFMEA & PFMEA</button>
+          <button type="button" class="btn btn-outline-secondary m-2">PPAP</button>
+          <button type="button" class="btn btn-outline-secondary m-2">ISO/ TS</button>
+          <button type="button" class="btn btn-outline-secondary m-2">DVP&R*</button>
+          <button type="button" class="btn btn-outline-secondary m-2">UL, CE, GMark, EMC Testing</button>
+        </div>
+        <div class="row m-3">
+          <h4 class="sub-title p-2">Manufacturing</h4>
+          <button type="button" class="btn btn-outline-secondary m-2">Machine Shop Skills</button>
+          <button type="button" class="btn btn-outline-secondary m-2">GD&T</button>
+          <button type="button" class="btn btn-outline-secondary m-2">DFM/ DFA</button>
+          <button type="button" class="btn btn-outline-secondary m-2">CNC (G & M-Code)*</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Tools/ Fixtures</button>
+          <button type="button" class="btn btn-outline-secondary m-2">Injection Molding</button>
+        </div>
+        
+            
+        </div>
       </div>
     </div>
 
+    <div class="album py-3" id="education">
+      <div class="container">
+        <h1 class="title">Education</h1>
+        <hr>
 
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-4 shadow-sm" style= "width: 35rem;">
+              <div class="card-body">
+                <h3 class="card-title">University of Massachusetts - Amherst </h3>
+                <br>
+                <medium class="card-subtitle">Master of Science (MS) - Mechanical Engineering </medium>
+                <br>
+                <medium class="text-muted ">Sep 2017 - May 2019</medium>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm" style= "width: 35rem;">
+              <div class="card-body">
+                <h3 class="card-title">MIT Ujjain - RGPV University </h3>
+                <br>
+                <medium class="card-subtitle">Bachelor of Engineering (BE) - Mechanical Engineering</medium>
+                <br>
+                <medium class="text-muted">Aug 2011 - June 2015</medium>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- CONTACT -->
     <!-- CONTACT -->
     <!-- CONTACT -->
     <!-- CONTACT -->
-    
-    <div class="container ">
+
+    <div class="container " id="contacts">
       <h1 class="title">Contact Me</h1>
       <hr>
       <div class="text-center">
